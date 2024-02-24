@@ -2,13 +2,18 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    bottom: 11%
+    left: 12%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 5%
+    right: 45%
+  &-3
+    animation: float1 3s ease-in-out infinite alternate
+    position: absolute
+    left: 75%
+    bottom: 30%
 
 
 @keyframes float1
@@ -17,3 +22,90 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal .tarjeta
+  @media screen and (max-width: 768px)
+    background-position: inherit
+  @media screen and (max-width: 576px)
+    background-position: center
+    background-image: url(../assets/curso/portada/fondo-banner-principal-movil.png) !important
+
+.banner-interno
+  height: 160px
+  .banner-interno__fondo
+    background-image: url(../assets/curso/fondo_tema.png) !important
+
+.cont_1_1
+  position: relative
+  *
+    position: relative
+  &:before
+    border-radius: 8px
+    content: ""
+    position: absolute
+    top: 0
+    left: -10%
+    right: 0
+    bottom: 0
+    background-color: white
+    z-index: 0
+    @media screen and (max-width: 992px)
+      left: 0
+
+.color-thead-tabla-1
+  thead
+    border-color: #BAE9D9
+  
+
+.color-fondo-1
+  background-color: #DEE1ED !important
+
+.color-fondo-2
+  background-color: #BAE9D9 !important
+
+.color-fondo-3
+  background-color: #DCECFE !important
+
+.fondo-gradiente-1
+  position: relative
+  *
+    position: relative
+  &:before
+    content: ""
+    opacity: 0.5
+    background: linear-gradient(180deg, rgba(222,225,237,0.37) 0%, rgba(175,199,233,0.64) 40%, rgba(173,211,253,1) 100%)
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+  &.posicion-1
+    &:before
+      top: 30px
+      bottom: 70px
+
+.borde-10
+  border-radius: 10px !important
+
+.cont-titulo-decorativo
+  position: relative
+  max-width: max-content
+  figure
+    width: 40px
+    position: relative
+  h3
+    position: relative
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: 0
+    right: 0
+    top: 16px
+    background-color: #8DEECC
+    border-radius: 6px
+    z-index: 0
+
+    
+
