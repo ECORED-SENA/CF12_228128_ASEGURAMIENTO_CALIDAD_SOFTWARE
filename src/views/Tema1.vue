@@ -39,6 +39,8 @@
           .color-fondo-3.borde-10.p-4
             p.mb-0 Este #[em framework] de automatización de pruebas se enfoca en el desarrollador y se centra en permitir que el desarrollo basado en pruebas (TDD) sea una práctica simple y agradable. Cypress se ejecuta dentro del navegador de forma remota, a diferencia de otros #[em framework] de pruebas que se ejecutan fuera de él, considerando que tiene una arquitectura diferente y brindando resultados más consistentes.  Por lo tanto, se hace una invitación a conocer el videotutorial de la instalación de la herramienta Cypress en el sistema operativo Windows 10 a 64 bits
 
+      p.mb-5 poner video aquiii !!!!!!!!!!!
+
       p.mb-5 Para afianzar sus conocimientos y realizar los pasos de instalación de la herramienta Cypress, se le invita a descargar el siguiente archivo PDF:
 
       .tarjeta.color-secundario.p-3.mb-5
@@ -78,23 +80,272 @@
                 td.text-center #[b Editor de código]
                 td Visual Studio Code.
 
-    .cont-titulo-decorativo.p-2.mt-5.mb-4
-      .row
-        .col-auto.pe-0
-          figure
-            img(src="@/assets/curso/temas/3.svg")
-        .col.align-self-end
-          h3.mt-3.mb-0.me-2 Serenity BDD
+    .fondo-gradiente-1.posicion-1
+      .cont-titulo-decorativo.p-2.mt-5.mb-4
+        .row
+          .col-auto.pe-0
+            figure
+              img(src="@/assets/curso/temas/3.svg")
+          .col.align-self-end
+            h3.mt-3.mb-0.me-2 Serenity BDD
 
-    .row.mb-5
-      .col-lg-2
-        figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/7.png",style="max-width: 190px;")
-      .col-lg-10
-        p.mb-0 Es un #[em framework] de automatización de casos de prueba de código abierto basado en #[b Java], que se integra con herramientas de desarrollo como JBehave y Cucumber, diseñado para facilitar la creación de pruebas de regresión y pruebas automáticas de aceptación. Ofrece una amplia gama de funcionalidades, incluyendo la ejecución de pruebas en paralelo, la captura de pantallas y la gestión de #[em WebDriver], todo ello sin necesidad de escribir código adicional. Recientemente, #[em Serenity] ha ampliado sus capacidades integrándose con #[em REST Assured], una biblioteca de Java para el testeo de API de código abierto, enriqueciendo así su oferta para los desarrolladores y #[em QA testers] que buscan eficiencia y efectividad en la automatización de pruebas.
+      .row.mb-5
+        .col-lg-2
+          figure.mb-4.mb-lg-0
+            img.mx-auto(src="@/assets/curso/temas/7.png",style="max-width: 190px;")
+        .col-lg-10
+          p.mb-0 Es un #[em framework] de automatización de casos de prueba de código abierto basado en #[b Java], que se integra con herramientas de desarrollo como JBehave y Cucumber, diseñado para facilitar la creación de pruebas de regresión y pruebas automáticas de aceptación. Ofrece una amplia gama de funcionalidades, incluyendo la ejecución de pruebas en paralelo, la captura de pantallas y la gestión de #[em WebDriver], todo ello sin necesidad de escribir código adicional. Recientemente, #[em Serenity] ha ampliado sus capacidades integrándose con #[em REST Assured], una biblioteca de Java para el testeo de API de código abierto, enriqueciendo así su oferta para los desarrolladores y #[em QA testers] que buscan eficiencia y efectividad en la automatización de pruebas.
+      
+      .row.justify-content-center.mb-4
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Figura 1.] #[em Framework Serenity BDD]
+          .cont_1_2.px-lg-5.px-md-4.px-2
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/8.png")
+      
+      p.mb-4 Para utilizar #[b #[em Serenity BDD]], se deben tener en cuenta las características del entorno donde será instalado y ejecutado, por lo tanto, a continuación, se mencionan los elementos requeridos:
+
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Tabla 2.] Requerimientos #[em Serenity BDD]
+          .tabla-a.color-thead-tabla-1(style="background-color: white;")
+            table
+              thead
+                tr
+                  th Requisitos
+                  th Descripción
+              tbody
+                tr
+                  td.text-center #[b #[em Hardware]]
+                  td Portátil o computador de escritorio (Core Duo P8600 2.4GHz, 4GB RAM, 320 GB HD).
+                tr
+                  td.text-center #[b Sistema operativo]
+                  td Windows Vista Ultimate, Windows 10, Linux. 32 bits o 64 bits.
+                tr
+                  td.text-center #[b Navegadores]
+                  td Internet Explorer 7.0.6001.1800, Mozilla Firefox 3.0.6, Opera 9.63, Safari 3.2.1, Google Chrome.
+                tr
+                  td.text-center #[b Compilador de código]
+                  td Apache Maven 3.5.0
+                tr
+                  td.text-center #[b Lenguaje de programación]
+                  td Java 1.8.
+                tr
+                  td.text-center #[b Kit de desarrollo de Java]
+                  td Java Development Kit JDK 8 o superior.
+                tr
+                  td.text-center #[b Editor de código]
+                  td Intellij Idea CE.
+
+      .tarjeta.color-secundario.p-3.mb-5
+        .row.justify-content-around.align-items-center
+          .col-auto
+            img(src="@/assets/curso/temas/9.svg").img65
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-1 Conociendo #[em Serenity BDD]
+                p.mb-0.text-small Para conocer algunas funcionalidades de este framework, se recomienda observar el siguiente webinar.
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=609y4K4ph6s" target="_blank")
+                  span(style="color: #12263F") Ver video
+                  i.fas.fa-video(style="color: #12263F")
+
+    .fondo-gradiente-1.posicion-1
+      .cont-titulo-decorativo.p-2.mt-5.mb-4
+        .row
+          .col-auto.pe-0
+            figure
+              img(src="@/assets/curso/temas/3.svg")
+          .col.align-self-end
+            h3.mt-3.mb-0.me-2 Robot Framework
+
+      .row.mb-5
+        .col-lg-2
+          figure.mb-4.mb-lg-0
+            img.mx-auto(src="@/assets/curso/temas/10.png",style="max-width: 190px;")
+        .col-lg-10
+          p.mb-4 Este #[em framework] se basa en Python y también podría utilizar #[em IronPython] (.NET) y #[em Jython] (Java). Además, emplea un enfoque basado en palabras clave para facilitar la creación de pruebas que sean fáciles de entender y legibles. Contiene diversas bibliotecas de pruebas y otras herramientas que se utilizan para agregar nuevas funcionalidades y desarrollar un conjunto de pruebas personalizado para la aplicación. Por otro lado, la biblioteca de prueba externa más utilizada podría ser #[em Selenium WebDriver]. No obstante, Robot Framework puede probar FTP, MongoDB, Android y Appium, además de sitios web.
+
+          .color-fondo-4.p-4.mb-4.figura-decorativa
+            figure.fig-dec
+              img.mx-auto(src="@/assets/curso/temas/12.svg")
+            .row.align-items-center
+              .col-md-1
+                figure.mb-4.mb-lg-0
+                  img.mx-auto(src="@/assets/curso/temas/11.svg",style="max-width: 51px;")
+              .col-md-11
+                p.mb-0 Este #[em framework] se utiliza para las pruebas de aceptación, se considera entre uno de los mejores #[em framework] de Python. #[b Robot Framework] se utiliza en Python, pero, también puede ejecutarse en #[em IronPython], basado en .net y en #[em Jython], donde este último está basado en el lenguaje de programación Java.
+
+          p.mb-0 Para utilizar #[b Robot Framework], se deben tener en cuenta las características del entorno donde será instalado y ejecutado. A continuación, se mencionan los elementos requeridos:
+
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Tabla 3.] Requerimientos Robot Framework
+          .tabla-a.color-thead-tabla-1(style="background-color: white;")
+            table
+              thead
+                tr
+                  th Requisitos
+                  th Descripción
+              tbody
+                tr
+                  td.text-center #[b #[em Hardware]]
+                  td Portátil o computador de escritorio (Procesador 2.4GHz, 4GB RAM, 320 GB HD).
+                tr
+                  td.text-center #[b Sistema operativo]
+                  td Windows 10, 64 bits
+                tr
+                  td.text-center #[b Navegadores]
+                  td Internet Explorer 7.0.6001.1800, Mozilla Firefox 3.0.6, Opera 9.63, Safari 3.2.1, Google Chrome.
+                tr
+                  td.text-center #[b Lenguaje de programación]
+                  td Python 2.7.9 o superior.
+                tr
+                  td.text-center #[b Editor de código]
+                  td SublimeText. Página para instalar https://www.sublimetext.com/3
+                tr
+                  td.text-center #[b Página para descargar]
+                  td
+                    | Python https://www.python.org/downloads/windows/
+                    br
+                    | wxPython. https://wxpython.org/pages/downloads/index.html
+
+
+      .tarjeta.color-secundario.p-3.mb-5
+        .row.justify-content-around.align-items-center
+          .col-auto
+            img(src="@/assets/curso/temas/9.svg").img65
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-1 Robot Framework: preparando ambiente
+                p.mb-0.text-small Para familiarizarse con las funcionalidades de este framework, se sugiere seguir el siguiente tutorial en video.
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=x1klhk_ovZo" target="_blank")
+                  span(style="color: #12263F") Ver video
+                  i.fas.fa-video(style="color: #12263F")
+
+    .fondo-gradiente-1.posicion-1
+      .cont-titulo-decorativo.p-2.mt-5.mb-4
+        .row
+          .col-auto.pe-0
+            figure
+              img(src="@/assets/curso/temas/3.svg")
+          .col.align-self-end
+            h3.mt-3.mb-0.me-2 #[em TestProject.io]
+      
+      .row.mb-4
+        .col-lg-2
+          figure.mb-4.mb-lg-0
+            img.mx-auto(src="@/assets/curso/temas/13.png",style="max-width: 190px;")
+        .col-lg-10
+          p.mb-0 Es una de las primeras plataformas de automatización de pruebas basadas en la nube, lo que facilita que los evaluadores realicen su trabajo de manera eficiente, utilizando #[em frameworks] de código abierto como Selenium y Appium. Al ser una herramienta de código abierto, permite que una mayor cantidad de empresas y #[em testers] se beneficien de las capacidades de Selenium y Appium, que son dos de los principales recursos de código abierto para la automatización. Por otro lado, ya están disponibles las implementaciones para Java y C#, y actualmente se está trabajando en la compatibilidad con JavaScript, Python y otros lenguajes de programación.
+      p.mb-5 Para utilizar #[em TestProject.io], se deben tener en cuenta las características del entorno donde será probado, por lo tanto, a continuación, se mencionan los elementos requeridos:
+
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Tabla 4.] Requerimientos Test Project
+          .tabla-a.color-thead-tabla-1(style="background-color: white;")
+            table
+              thead
+                tr
+                  th Requisitos
+                  th Descripción
+              tbody
+                tr
+                  td.text-center #[b #[em Hardware]]
+                  td Portátil o computador de escritorio (Procesador 2.4GHz, 4GB RAM, 320 GB HD).
+                tr
+                  td.text-center #[b Sistema operativo]
+                  td Windows 10, 64 bits.
+                tr
+                  td.text-center #[b Navegadores]
+                  td Internet Explorer 7.0.6001.1800, Mozilla Firefox 3.0.6, Opera 9.63, Safari 3.2.1, Google Chrome.
+      
+      .tarjeta.color-secundario.p-3.mb-5
+        .row.justify-content-around.align-items-center
+          .col-auto
+            img(src="@/assets/curso/temas/9.svg").img65
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-1 Tests con Test Project
+                p.mb-0.text-small Para conocer algunas funcionalidades de la plataforma en automatización de pruebas, remítase al video tutorial.
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?app=desktop&v=hbMbcjm492c" target="_blank")
+                  span(style="color: #12263F") Ver video
+                  i.fas.fa-video(style="color: #12263F")
+
+    .fondo-gradiente-1.posicion-1
+      .cont-titulo-decorativo.p-2.mt-5.mb-4
+        .row
+          .col-auto.pe-0
+            figure
+              img(src="@/assets/curso/temas/3.svg")
+          .col.align-self-end
+            h3.mt-3.mb-0.me-2 #[em WebDriverIO]
     
-    .titulo-sexto.color-acento-contenido
-      p.mb-0 #[b Figura 1.] #[em Framework] Serenity BDD
+      .row.mb-5
+        .col-lg-2
+          figure.mb-4.mb-lg-0
+            img.mx-auto(src="@/assets/curso/temas/14.png",style="max-width: 190px;")
+        .col-lg-10
+          p.mb-4 Este #[em framework] es muy completo para probar aplicaciones web. Es muy rápido y no necesita implementar tareas desde cero. De acuerdo con la filosofía #[em “click and run”], contiene todo lo requerido para crear gran variedad de pruebas sostenibles y escalables, y contiene características adicionales que no se encuentran en otros #[em frameworks].
+
+          p.mb-0 Para utilizar este #[em framework], se deben tener en cuenta las características del entorno donde será instalado y ejecutado; por lo tanto, a continuación, se mencionan los elementos requeridos:
+      
+      .row.justify-content-center.mb-5
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido
+            p.mb-0 #[b Tabla 5.] Requerimientos WebDriverIO
+          .tabla-a.color-thead-tabla-1(style="background-color: white;")
+            table
+              thead
+                tr
+                  th Requisitos
+                  th Descripción
+              tbody
+                tr
+                  td.text-center #[b #[em Hardware]]
+                  td Portátil o computador de escritorio (Procesador 2.4GHz, 4GB RAM, 320 GB HD).
+                tr
+                  td.text-center #[b Sistema operativo]
+                  td Windows 10, 32 o 64 bits.
+                tr
+                  td.text-center #[b Navegadores]
+                  td Internet Explorer 7.0.6001.1800, Mozilla Firefox 3.0.6, Opera 9.63, Safari 3.2.1, Google Chrome.
+                tr
+                  td.text-center #[b Editor de código]
+                  td Visual Studio Code. Página para descargar Visual Studio Code https://code.visualstudio.com/download
+                tr
+                  td.text-center #[b Entorno en tiempo de ejecución multiplataforma]
+                  td Node.js
+                tr
+                  td.text-center #[b Página para descargar]
+                  td node.js https://nodejs.org/en/
+
+      .tarjeta.color-secundario.p-3
+        .row.justify-content-around.align-items-center
+          .col-auto
+            img(src="@/assets/curso/temas/9.svg").img65
+          .col
+            .row.justify-content-between.align-items-center
+              .col.mb-3.mb-sm-0
+                h4.mb-1 #[em Webdriver]
+                p.mb-0.text-small Para conocer algunas funcionalidades de Webdriver, se recomienda explorar los siguientes videos tutoriales.
+              .col-sm-auto
+                a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=Rv28n_rT1BM" target="_blank")
+                  span(style="color: #12263F") Ver video
+                  i.fas.fa-video(style="color: #12263F")
+
+
+    
+
 
 </template>
 
