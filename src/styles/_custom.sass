@@ -38,6 +38,15 @@
 .titulo-sexto
   font-size: 14px
 
+.lista-ul--color li > i:first-of-type
+  color: $color-primario
+
+.lista-ul
+  li
+    display: flex
+  i.fas.fa-circle
+    font-size: 0.7em
+
 .cont_1_1
   position: relative
   *
@@ -72,6 +81,51 @@
     bottom: 0
     background-color: #E1F6EF
     z-index: 0
+
+.cont_2_1
+  position: relative
+  *
+    position: relative
+  &:before
+    background-color: #DEE1ED
+    content: ""
+    width: 120%
+    left: -10%
+    height: 100%
+    position: absolute
+    z-index: 0
+
+.cont_2_2
+  position: relative
+  height: 100%
+  background-color: #ADD3FD
+  border-radius: 10px
+  overflow: hidden
+  &:before
+    content: ""
+    position: absolute
+    height: 30px
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: #1682FB
+
+.cont_2_3
+  position: relative
+  background-color: #13215C
+  padding-top: 6rem !important
+  overflow: hidden
+  h4
+    color: $color-acento-botones
+  ul
+    color: white
+  .fig-flotante
+    position: absolute
+  .slyder-a
+    .slyder-a__btn--sigt,.slyder-a__btn--atrs
+      background-color: #FFCE00
+    
+
 .color-thead-tabla-1
   thead
     border-color: #BAE9D9
@@ -86,6 +140,12 @@
 
 .color-fondo-4
   background-color: #E1F6EF !important
+
+.color-fondo-5
+  background-color: $color-acento-botones !important
+
+.color-fondo-6
+  background-color: $color-sistema-h !important
 
 .fondo-gradiente-1
   position: relative
@@ -105,6 +165,21 @@
     &:before
       top: 30px
       bottom: 70px
+
+.fondo-gradiente-2
+  position: relative
+  z-index: 1
+  &:before
+    z-index: -1
+    content: ""
+    position: absolute
+    width: 125%
+    left: -15%
+    top: 0
+    bottom: 0
+    background: url(../assets/curso/temas/34.png)
+    background-size: cover
+    background-position: top
 
 .figura-decorativa
   position: relative
@@ -141,5 +216,40 @@
     border-radius: 6px
     z-index: 0
 
-    
+.tarjeta-carrousel-1
+  h3
+    color: #12263F !important
+    display: flex
+    align-items: flex-start
+    span.titulo
+      display: inline-block
+      background-color: #3EE2A8
+      color: #12263F !important
+
+    span.numero
+      display: inline-block
+      background-color: #FFCE00
+      color: #12263F !important
+
+
+.estilo-slyder.slyder-f
+  .slyder-f__btn
+    position: relative
+    *
+      position: relative
+    &:before
+      content: ""
+      background-color: #FFCE00
+      position: absolute
+      height: 50px
+      width: 50px
+      z-index: 0
+      border-radius: 50%
+      @media screen and (max-width: 576px)
+        width: 30px
+        height: 30px
+    i
+      font-size: 1rem
+      color: #707BA3
+      
 
