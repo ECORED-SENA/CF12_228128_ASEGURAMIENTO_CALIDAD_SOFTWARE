@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="294.289" height="780" viewBox="0 0 294.289 780">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.158" cy="-0.094" r="1.375" gradientTransform="translate(0)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="0.126" y1="0.1" x2="0.881" y2="0.907" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d77bfd"/>
+      <stop offset="0.23" stop-color="#a866dd"/>
+      <stop offset="0.46" stop-color="#8154c2"/>
+      <stop offset="0.68" stop-color="#6548af"/>
+      <stop offset="0.86" stop-color="#5440a4"/>
+      <stop offset="1" stop-color="#4e3ea0"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-2" cx="0.158" cy="-0.094" r="1.375" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient-2" x1="0.239" y1="0.159" x2="0.76" y2="0.84" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fed44a"/>
+      <stop offset="0.28" stop-color="#fdc34d"/>
+      <stop offset="0.31" stop-color="#fdc14e"/>
+      <stop offset="0.79" stop-color="#f99a57"/>
+      <stop offset="1" stop-color="#f8885c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.135" y1="0.126" x2="0.883" y2="0.892" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd6a7d"/>
+      <stop offset="0.02" stop-color="#f7687e"/>
+      <stop offset="0.26" stop-color="#c65e92"/>
+      <stop offset="0.48" stop-color="#9f56a1"/>
+      <stop offset="0.69" stop-color="#8350ac"/>
+      <stop offset="0.87" stop-color="#724db2"/>
+      <stop offset="1" stop-color="#6c4cb5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.122" y1="0.125" x2="0.943" y2="0.939" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cc6090"/>
+      <stop offset="0.13" stop-color="#cd5386"/>
+      <stop offset="0.47" stop-color="#d0386f"/>
+      <stop offset="0.77" stop-color="#d22761"/>
+      <stop offset="1" stop-color="#d3215d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="0.778" y1="0.031" x2="-0.174" y2="1.453" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe965b"/>
+      <stop offset="1" stop-color="#d22963"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="0.471" y1="-0.072" x2="0.557" y2="1.372" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-7" x1="0.268" y1="1.018" x2="0.774" y2="-0.089" xlink:href="#linear-gradient-3"/>
+    <linearGradient id="linear-gradient-8" x1="0" y1="0.5" x2="1" y2="0.5" xlink:href="#linear-gradient"/>
+    <radialGradient id="radial-gradient-6" cx="0.158" cy="-0.094" r="1.375" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+  </defs>
+  <g id="Grupo_1075275" data-name="Grupo 1075275" transform="translate(1478.145 9705)">
+    <rect id="Rectángulo_382745" data-name="Rectángulo 382745" width="255" height="80" rx="10" transform="translate(-1451 -9295)" fill="#add3fd"/>
+    <rect id="Rectángulo_383136" data-name="Rectángulo 383136" width="255" height="80" rx="10" transform="translate(-1451 -9205)" fill="#add3fd"/>
+    <rect id="Rectángulo_383137" data-name="Rectángulo 383137" width="255" height="100" rx="10" transform="translate(-1451 -9115)" fill="#add3fd"/>
+    <rect id="Rectángulo_383138" data-name="Rectángulo 383138" width="255" height="80" rx="10" transform="translate(-1451 -9005)" fill="#add3fd"/>
+    <g id="Grupo_1074915" data-name="Grupo 1074915" transform="translate(-1478.145 -9192)">
+      <g id="Grupo_1074894" data-name="Grupo 1074894" transform="translate(0)">
+        <ellipse id="Elipse_10014" data-name="Elipse 10014" cx="27.375" cy="27.354" rx="27.375" ry="27.354" fill="url(#radial-gradient)"/>
+        <ellipse id="Elipse_10015" data-name="Elipse 10015" cx="26.23" cy="26.209" rx="26.23" ry="26.209" transform="translate(1.145 1.144)" fill="url(#linear-gradient)"/>
+      </g>
+      <g id="Grupo_1074905" data-name="Grupo 1074905" transform="translate(10.95 10.95)">
+        <circle id="Elipse_9894" data-name="Elipse 9894" cx="16.425" cy="16.425" r="16.425" transform="translate(0 0)" fill="#fff"/>
+        <text id="_2" data-name="2" transform="translate(10.95 21.38)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+      </g>
+    </g>
+    <text id="La_prueba_debe_fallar:_Se_muestran_los_fallos_en_rojo." data-name="La prueba debe fallar: Se muestran los fallos en rojo." transform="translate(-1406 -9278)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">La prueba debe fallar: </tspan><tspan y="17" font-family="Roboto-Regular, Roboto" font-weight="400">Se </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">muestran los fallos en rojo.</tspan></text>
+    <text id="Refactoring:_se_debe_mejorar_el_código" data-name="Refactoring: se debe mejorar el código" transform="translate(-1405 -8986)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Refactoring:</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400"> se debe </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">mejorar el código</tspan></text>
+    <text id="Escribir_el_código_mínimo_para_que_la_prueba_pase." data-name="Escribir el código mínimo para que la prueba pase." transform="translate(-1405 -9186)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Escribir el código </tspan><tspan y="17" font-family="Roboto-Regular, Roboto" font-weight="400">mínimo </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">para que la prueba pase.</tspan></text>
+    <text id="La_prueba_debe_pasar:_las_que_pasan_se_muestran_en_verde." data-name="La prueba debe pasar: las que pasan se muestran en verde." transform="translate(-1405 -9099)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">La prueba debe pasar:</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400"> las </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">que pasan se muestran </tspan><tspan x="0" y="65" font-family="Roboto-Regular, Roboto" font-weight="400">en verde.</tspan></text>
+    <g id="Grupo_1074914" data-name="Grupo 1074914" transform="translate(-1478.145 -9282)">
+      <g id="Grupo_1074893" data-name="Grupo 1074893" transform="translate(0 0)">
+        <ellipse id="Elipse_10012" data-name="Elipse 10012" cx="27.375" cy="27.354" rx="27.375" ry="27.354" fill="url(#radial-gradient-2)"/>
+        <ellipse id="Elipse_10013" data-name="Elipse 10013" cx="26.23" cy="26.209" rx="26.23" ry="26.209" transform="translate(1.145 1.144)" fill="url(#linear-gradient-2)"/>
+      </g>
+      <circle id="Elipse_9894-2" data-name="Elipse 9894" cx="16.425" cy="16.425" r="16.425" transform="translate(10.95 10.95)" fill="#fff"/>
+      <text id="_1" data-name="1" transform="translate(21.9 32.856)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+    </g>
+    <g id="Grupo_1074917" data-name="Grupo 1074917" transform="translate(-1478.145 -9092)">
+      <g id="Grupo_1074896" data-name="Grupo 1074896" transform="translate(0 0)">
+        <ellipse id="Elipse_10018" data-name="Elipse 10018" cx="27.375" cy="27.354" rx="27.375" ry="27.354" transform="translate(0 0)" fill="url(#radial-gradient)"/>
+        <ellipse id="Elipse_10019" data-name="Elipse 10019" cx="26.215" cy="26.233" rx="26.215" ry="26.233" transform="translate(1.146 53.575) rotate(-90)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g id="Grupo_1074904" data-name="Grupo 1074904" transform="translate(10.497 10.95)">
+        <circle id="Elipse_9894-3" data-name="Elipse 9894" cx="16.425" cy="16.425" r="16.425" transform="translate(0 0)" fill="#fff"/>
+        <text id="_3" data-name="3" transform="translate(10.95 21.38)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_1074916" data-name="Grupo 1074916" transform="translate(-1478.145 -8992)">
+      <g id="Grupo_1074895" data-name="Grupo 1074895" transform="translate(0 0)">
+        <ellipse id="Elipse_10016" data-name="Elipse 10016" cx="27.375" cy="27.354" rx="27.375" ry="27.354" transform="translate(0 0)" fill="url(#radial-gradient-2)"/>
+        <ellipse id="Elipse_10017" data-name="Elipse 10017" cx="26.213" cy="26.232" rx="26.213" ry="26.232" transform="translate(1.145 53.567) rotate(-90)" fill="url(#linear-gradient-4)"/>
+      </g>
+      <g id="Grupo_1074906" data-name="Grupo 1074906" transform="translate(10.95 10.95)">
+        <circle id="Elipse_9894-4" data-name="Elipse 9894" cx="16.425" cy="16.425" r="16.425" transform="translate(0 0)" fill="#fff"/>
+        <text id="_4" data-name="4" transform="translate(10.95 21.38)" fill="#12263f" font-size="18" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">4</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_1074913" data-name="Grupo 1074913" transform="translate(-56 17)">
+      <g id="OBJECTS" transform="translate(-1422.145 -9619.504)">
+        <g id="Grupo_1074897" data-name="Grupo 1074897" transform="translate(0 0)">
+          <g id="Grupo_1074890" data-name="Grupo 1074890" transform="translate(55.056 55.134)">
+            <line id="Línea_372" data-name="Línea 372" y1="183.877" x2="184.019" fill="none" stroke="#999" stroke-miterlimit="10" stroke-width="1.07"/>
+            <line id="Línea_373" data-name="Línea 373" x2="184.019" y2="183.877" fill="none" stroke="#999" stroke-miterlimit="10" stroke-width="1.07"/>
+          </g>
+          <g id="Grupo_1074891" data-name="Grupo 1074891" transform="translate(0)">
+            <path id="Trazado_828956" data-name="Trazado 828956" d="M41.873,168.19H13.24c0-81.08,66-147.04,147.145-147.04V49.761c-65.349,0-118.512,53.122-118.512,118.42Z" transform="translate(-13.24 -21.15)" fill="url(#linear-gradient-5)"/>
+            <path id="Trazado_828957" data-name="Trazado 828957" d="M160.385,326.011c-81.134,0-147.145-65.96-147.145-147.031H41.873c0,65.3,53.163,118.42,118.512,118.42v28.611Z" transform="translate(-13.24 -31.94)" fill="url(#linear-gradient-6)"/>
+            <path id="Trazado_828958" data-name="Trazado 828958" d="M171.06,326.011V297.4c65.349,0,118.512-53.122,118.512-118.42H318.2c0,81.071-66.011,147.031-147.145,147.031Z" transform="translate(-23.915 -31.94)" fill="url(#linear-gradient-7)"/>
+            <path id="Trazado_828959" data-name="Trazado 828959" d="M318.2,168.191H289.572c0-65.3-53.163-118.42-118.512-118.42V21.16c81.134,0,147.144,65.96,147.144,147.031Z" transform="translate(-23.915 -21.151)" fill="url(#linear-gradient-8)"/>
+          </g>
+          <g id="Grupo_1074892" data-name="Grupo 1074892" transform="translate(43.727 41.215)">
+            <ellipse id="Elipse_10010" data-name="Elipse 10010" cx="104.042" cy="103.962" rx="104.042" ry="103.962" transform="translate(0)" fill="url(#radial-gradient-2)"/>
+            <ellipse id="Elipse_10011" data-name="Elipse 10011" cx="99.692" cy="99.615" rx="99.692" ry="99.615" transform="translate(4.35 4.346)" fill="url(#radial-gradient-6)"/>
+          </g>
+          <g id="Grupo_1074893-2" data-name="Grupo 1074893" transform="translate(17.414 18.402)">
+            <ellipse id="Elipse_10012-2" data-name="Elipse 10012" cx="29.521" cy="29.498" rx="29.521" ry="29.498" fill="url(#radial-gradient-2)"/>
+            <ellipse id="Elipse_10013-2" data-name="Elipse 10013" cx="28.286" cy="28.264" rx="28.286" ry="28.264" transform="translate(1.235 1.234)" fill="url(#linear-gradient-2)"/>
+          </g>
+          <g id="Grupo_1074894-2" data-name="Grupo 1074894" transform="translate(222.29 18.402)">
+            <ellipse id="Elipse_10014-2" data-name="Elipse 10014" cx="29.521" cy="29.498" rx="29.521" ry="29.498" fill="url(#radial-gradient)"/>
+            <ellipse id="Elipse_10015-2" data-name="Elipse 10015" cx="28.286" cy="28.264" rx="28.286" ry="28.264" transform="translate(1.235 1.234)" fill="url(#linear-gradient)"/>
+          </g>
+          <g id="Grupo_1074895-2" data-name="Grupo 1074895" transform="translate(17.414 218.556)">
+            <ellipse id="Elipse_10016-2" data-name="Elipse 10016" cx="29.521" cy="29.498" rx="29.521" ry="29.498" transform="translate(0 0)" fill="url(#radial-gradient-2)"/>
+            <ellipse id="Elipse_10017-2" data-name="Elipse 10017" cx="28.268" cy="28.289" rx="28.268" ry="28.289" transform="translate(1.235 57.767) rotate(-90)" fill="url(#linear-gradient-4)"/>
+          </g>
+          <g id="Grupo_1074896-2" data-name="Grupo 1074896" transform="translate(222.29 218.556)">
+            <ellipse id="Elipse_10018-2" data-name="Elipse 10018" cx="29.521" cy="29.498" rx="29.521" ry="29.498" transform="translate(0 0)" fill="url(#radial-gradient)"/>
+            <ellipse id="Elipse_10019-2" data-name="Elipse 10019" cx="28.27" cy="28.29" rx="28.27" ry="28.29" transform="translate(1.236 57.775) rotate(-90)" fill="url(#linear-gradient-3)"/>
+          </g>
+        </g>
+        <g id="Grupo_1074905-2" data-name="Grupo 1074905" transform="translate(234.098 30.211)">
+          <circle id="Elipse_9894-5" data-name="Elipse 9894" cx="17.713" cy="17.713" r="17.713" transform="translate(0)" fill="#fff"/>
+          <text id="_2-2" data-name="2" transform="translate(11.808 25.723)" fill="#12263f" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+        </g>
+      </g>
+      <text id="TDD_es_una_metodología_de_desarrollo_cuyo_objetivo_es_crear_primero_las_pruebas_y_luego_escribir_el_software." data-name="TDD es una metodología de desarrollo, cuyo objetivo es crear primero las pruebas y luego escribir el software." transform="translate(-1357.787 -9555.469)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="41.522" y="17">TDD es una </tspan><tspan x="26.815" y="40">metodología de </tspan><tspan x="26.221" y="63">desarrollo, cuyo </tspan><tspan x="23.639" y="86">objetivo es crear </tspan><tspan x="5.756" y="109">primero las pruebas y </tspan><tspan x="26.17" y="132">luego escribir el </tspan><tspan x="48.795" y="155">software.</tspan></text>
+      <g id="Grupo_1074910" data-name="Grupo 1074910" transform="translate(-1392.922 -9589.885)">
+        <circle id="Elipse_9894-6" data-name="Elipse 9894" cx="17.713" cy="17.713" r="17.713" transform="translate(0 0)" fill="#fff"/>
+        <text id="_1-2" data-name="1" transform="translate(11.808 25.723)" fill="#12263f" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Grupo_1074912" data-name="Grupo 1074912" transform="translate(-1187.456 -9389.141)">
+        <circle id="Elipse_9894-7" data-name="Elipse 9894" cx="17.713" cy="17.713" r="17.713" transform="translate(0)" fill="#fff"/>
+        <text id="_3-2" data-name="3" transform="translate(11.808 25.723)" fill="#12263f" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+      </g>
+      <g id="Grupo_1074911" data-name="Grupo 1074911" transform="translate(-1392.922 -9389.141)">
+        <circle id="Elipse_9894-8" data-name="Elipse 9894" cx="17.713" cy="17.713" r="17.713" transform="translate(0)" fill="#fff"/>
+        <text id="_4-2" data-name="4" transform="translate(11.808 25.723)" fill="#12263f" font-size="19" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">4</tspan></text>
+      </g>
+    </g>
+    <g id="Grupo_1074909" data-name="Grupo 1074909" transform="translate(-2429 -12165)">
+      <rect id="Rectángulo_382745-2" data-name="Rectángulo 382745" width="264" height="72" rx="10" transform="translate(966 2460)" fill="#e1f6ef"/>
+      <text id="_1._Escribir_las_pruebas_primero._2._Refactorización_de_código." data-name="1. Escribir las pruebas primero.
+2. Refactorización de código." transform="translate(983 2473)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">1. Escribir las pruebas primero.</tspan><tspan x="0" y="43">2. Refactorización de código.</tspan></text>
+    </g>
+  </g>
+</svg>

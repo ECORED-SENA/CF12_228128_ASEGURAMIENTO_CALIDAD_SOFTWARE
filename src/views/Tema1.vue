@@ -39,7 +39,9 @@
           .color-fondo-3.borde-10.p-4
             p.mb-0 Este #[em framework] de automatización de pruebas se enfoca en el desarrollador y se centra en permitir que el desarrollo basado en pruebas (TDD) sea una práctica simple y agradable. Cypress se ejecuta dentro del navegador de forma remota, a diferencia de otros #[em framework] de pruebas que se ejecutan fuera de él, considerando que tiene una arquitectura diferente y brindando resultados más consistentes.  Por lo tanto, se hace una invitación a conocer el videotutorial de la instalación de la herramienta Cypress en el sistema operativo Windows 10 a 64 bits
 
-      p.mb-5 poner video aquiii !!!!!!!!!!!
+      figure.mb-5
+        .video
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       p.mb-5 Para afianzar sus conocimientos y realizar los pasos de instalación de la herramienta Cypress, se le invita a descargar el siguiente archivo PDF:
 

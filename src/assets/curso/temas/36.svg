@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1019" height="498.07" viewBox="0 0 1019 498.07">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.778" y1="0.031" x2="-0.174" y2="1.453" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fe965b"/>
+      <stop offset="1" stop-color="#d22963"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.471" y1="-0.072" x2="0.557" y2="1.372" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cc6090"/>
+      <stop offset="0.13" stop-color="#cd5386"/>
+      <stop offset="0.47" stop-color="#d0386f"/>
+      <stop offset="0.77" stop-color="#d22761"/>
+      <stop offset="1" stop-color="#d3215d"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.268" y1="1.018" x2="0.774" y2="-0.089" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fd6a7d"/>
+      <stop offset="0.02" stop-color="#f7687e"/>
+      <stop offset="0.26" stop-color="#c65e92"/>
+      <stop offset="0.48" stop-color="#9f56a1"/>
+      <stop offset="0.69" stop-color="#8350ac"/>
+      <stop offset="0.87" stop-color="#724db2"/>
+      <stop offset="1" stop-color="#6c4cb5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d77bfd"/>
+      <stop offset="0.23" stop-color="#a866dd"/>
+      <stop offset="0.46" stop-color="#8154c2"/>
+      <stop offset="0.68" stop-color="#6548af"/>
+      <stop offset="0.86" stop-color="#5440a4"/>
+      <stop offset="1" stop-color="#4e3ea0"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.158" cy="-0.094" r="1.375" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0.158" cy="-0.094" r="1.375" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-5" x1="0.239" y1="0.159" x2="0.76" y2="0.84" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fed44a"/>
+      <stop offset="0.28" stop-color="#fdc34d"/>
+      <stop offset="0.31" stop-color="#fdc14e"/>
+      <stop offset="0.79" stop-color="#f99a57"/>
+      <stop offset="1" stop-color="#f8885c"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-4" cx="0.158" cy="-0.094" r="1.375" gradientTransform="translate(0)" xlink:href="#radial-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="0.126" y1="0.1" x2="0.881" y2="0.907" xlink:href="#linear-gradient-4"/>
+    <linearGradient id="linear-gradient-7" x1="0.122" y1="0.125" x2="0.943" y2="0.939" xlink:href="#linear-gradient-2"/>
+    <linearGradient id="linear-gradient-8" x1="0.135" y1="0.126" x2="0.883" y2="0.892" xlink:href="#linear-gradient-3"/>
+    <clipPath id="clip-path">
+      <path id="path4146" d="M0-682.665H52.665V-630H0Z" transform="translate(0 682.665)" fill="#1682fb"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1074960" data-name="Grupo 1074960" transform="translate(-231 -1661.863)">
+    <g id="Grupo_1074907" data-name="Grupo 1074907" transform="translate(0 -490.969)">
+      <rect id="Rectángulo_382745" data-name="Rectángulo 382745" width="295" height="110" rx="10" transform="translate(350 2168)" fill="#add3fd"/>
+      <rect id="Rectángulo_383135" data-name="Rectángulo 383135" width="295" height="110" rx="10" transform="translate(350 2524)" fill="#add3fd"/>
+      <rect id="Rectángulo_383133" data-name="Rectángulo 383133" width="295" height="110" rx="10" transform="translate(955 2168)" fill="#add3fd"/>
+      <rect id="Rectángulo_383134" data-name="Rectángulo 383134" width="295" height="110" rx="10" transform="translate(955 2524)" fill="#add3fd"/>
+      <g id="OBJECTS" transform="translate(526.098 2119.459)">
+        <g id="Grupo_1074897" data-name="Grupo 1074897" transform="translate(-6.044)">
+          <g id="Grupo_1074890" data-name="Grupo 1074890" transform="translate(123.7 126.754)">
+            <line id="Línea_372" data-name="Línea 372" y1="311.434" x2="311.674" fill="none" stroke="#999" stroke-miterlimit="10" stroke-width="1.07"/>
+            <line id="Línea_373" data-name="Línea 373" x2="311.674" y2="311.434" fill="none" stroke="#999" stroke-miterlimit="10" stroke-width="1.07"/>
+          </g>
+          <g id="Grupo_1074891" data-name="Grupo 1074891" transform="translate(30.452 33.373)">
+            <path id="Trazado_828956" data-name="Trazado 828956" d="M61.735,270.193H13.24C13.24,132.867,125.027,21.15,262.459,21.15V69.608c-110.682,0-200.724,89.973-200.724,200.569Z" transform="translate(-13.24 -21.15)" fill="url(#linear-gradient)"/>
+            <path id="Trazado_828957" data-name="Trazado 828957" d="M262.459,428.007C125.043,428.007,13.24,316.29,13.24,178.98h48.5c0,110.6,90.042,200.569,200.724,200.569v48.458Z" transform="translate(-13.24 70.063)" fill="url(#linear-gradient-2)"/>
+            <path id="Trazado_828958" data-name="Trazado 828958" d="M171.06,428.007V379.549c110.682,0,200.724-89.973,200.724-200.569h48.5c0,137.31-111.8,249.027-249.219,249.027Z" transform="translate(78.159 70.063)" fill="url(#linear-gradient-3)"/>
+            <path id="Trazado_828959" data-name="Trazado 828959" d="M420.279,270.187h-48.5c0-110.6-90.042-200.569-200.724-200.569V21.16c137.417,0,249.219,111.717,249.219,249.027Z" transform="translate(78.159 -21.144)" fill="url(#linear-gradient-4)"/>
+          </g>
+          <g id="Grupo_1074892" data-name="Grupo 1074892" transform="translate(141.763 140.4)">
+            <ellipse id="Elipse_10010" data-name="Elipse 10010" cx="138.967" cy="138.859" rx="138.967" ry="138.859" transform="translate(0)" fill="url(#radial-gradient)"/>
+            <ellipse id="Elipse_10011" data-name="Elipse 10011" cx="133.157" cy="133.054" rx="133.157" ry="133.054" transform="translate(5.81 5.805)" fill="url(#radial-gradient-2)"/>
+          </g>
+          <g id="Grupo_1074893" data-name="Grupo 1074893" transform="translate(59.946 64.541)">
+            <ellipse id="Elipse_10012" data-name="Elipse 10012" cx="50" cy="49.961" rx="50" ry="49.961" fill="url(#radial-gradient)"/>
+            <ellipse id="Elipse_10013" data-name="Elipse 10013" cx="47.908" cy="47.871" rx="47.908" ry="47.871" transform="translate(2.092 2.09)" fill="url(#linear-gradient-5)"/>
+          </g>
+          <g id="Grupo_1074894" data-name="Grupo 1074894" transform="translate(406.946 64.541)">
+            <ellipse id="Elipse_10014" data-name="Elipse 10014" cx="50" cy="49.961" rx="50" ry="49.961" fill="url(#radial-gradient-4)"/>
+            <ellipse id="Elipse_10015" data-name="Elipse 10015" cx="47.908" cy="47.871" rx="47.908" ry="47.871" transform="translate(2.092 2.09)" fill="url(#linear-gradient-6)"/>
+          </g>
+          <g id="Grupo_1074895" data-name="Grupo 1074895" transform="translate(50.402 393.975)">
+            <ellipse id="Elipse_10016" data-name="Elipse 10016" cx="50" cy="49.961" rx="50" ry="49.961" transform="translate(9.544 9.567)" fill="url(#radial-gradient)"/>
+            <ellipse id="Elipse_10017" data-name="Elipse 10017" cx="47.878" cy="47.913" rx="47.878" ry="47.913" transform="translate(11.636 107.408) rotate(-90)" fill="url(#linear-gradient-7)"/>
+          </g>
+          <g id="Grupo_1074896" data-name="Grupo 1074896" transform="translate(392.228 388.805)">
+            <ellipse id="Elipse_10018" data-name="Elipse 10018" cx="50" cy="49.961" rx="50" ry="49.961" transform="translate(14.718 14.737)" fill="url(#radial-gradient-4)"/>
+            <ellipse id="Elipse_10019" data-name="Elipse 10019" cx="47.882" cy="47.915" rx="47.882" ry="47.915" transform="translate(16.811 112.591) rotate(-90)" fill="url(#linear-gradient-8)"/>
+          </g>
+        </g>
+        <g id="Grupo_1074905" data-name="Grupo 1074905" transform="translate(195.902 -3527.459)">
+          <circle id="Elipse_9894" data-name="Elipse 9894" cx="30" cy="30" r="30" transform="translate(225 3612)" fill="#fff"/>
+          <text id="_2" data-name="2" transform="translate(245 3653)" fill="#12263f" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">2</tspan></text>
+        </g>
+      </g>
+      <text id="TDD_es_una_metodología_de_desarrollo_cuyo_objetivo_es_crear_primero_las_pruebas_y_luego_escribir_el_software." data-name="TDD es una metodología de desarrollo, cuyo objetivo es crear primero las pruebas y luego escribir el software." transform="translate(700 2367)" fill="#12263f" font-size="16" font-family="Roboto-Regular, Roboto"><tspan x="1.781" y="17">TDD es una metodología de </tspan><tspan x="3.477" y="41">desarrollo, cuyo objetivo es </tspan><tspan x="3.297" y="65">crear primero las pruebas y </tspan><tspan x="9.039" y="89">luego escribir el </tspan><tspan y="89" font-family="Roboto-Italic, Roboto" font-style="italic">software</tspan><tspan y="89">.</tspan></text>
+      <text id="La_prueba_debe_fallar:_Se_muestran_los_fallos_en_rojo." data-name="La prueba debe fallar: Se muestran los fallos en rojo." transform="translate(404 2189)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">La prueba debe fallar: </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">Se muestran los fallos </tspan><tspan x="0" y="65" font-family="Roboto-Regular, Roboto" font-weight="400">en rojo.</tspan></text>
+      <text id="Refactoring:_se_debe_mejorar_el_código." data-name="Refactoring: se debe mejorar el código." transform="translate(404 2558)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Refactoring:</tspan><tspan y="17" xml:space="preserve" font-family="Roboto-Regular, Roboto" font-weight="400"> se debe </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">mejorar el código.</tspan></text>
+      <text id="Escribir_el_código_mínimo_para_que_la_prueba_pase." data-name="Escribir el código mínimo para que la prueba pase." transform="translate(1067 2189)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">Escribir el código </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">mínimo para que la </tspan><tspan x="0" y="65" font-family="Roboto-Regular, Roboto" font-weight="400">prueba pase.</tspan></text>
+      <text id="La_prueba_debe_pasar:_las_que_pasan_se_muestran_en_verde." data-name="La prueba debe pasar: las que pasan se muestran en verde." transform="translate(1058 2545)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">La prueba debe pasar:</tspan><tspan y="17" font-family="Roboto-Regular, Roboto" font-weight="400"> </tspan><tspan x="0" y="41" font-family="Roboto-Regular, Roboto" font-weight="400">las que pasan se </tspan><tspan x="0" y="65" font-family="Roboto-Regular, Roboto" font-weight="400">muestran en verde.</tspan></text>
+      <g id="Grupo_1074902" data-name="Grupo 1074902" transform="translate(375 -1409)">
+        <circle id="Elipse_9894-2" data-name="Elipse 9894" cx="30" cy="30" r="30" transform="translate(225 3612)" fill="#fff"/>
+        <text id="_1" data-name="1" transform="translate(245 3653)" fill="#12263f" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">1</tspan></text>
+      </g>
+      <g id="Grupo_1074904" data-name="Grupo 1074904" transform="translate(723 -1069)">
+        <circle id="Elipse_9894-3" data-name="Elipse 9894" cx="30" cy="30" r="30" transform="translate(225 3612)" fill="#fff"/>
+        <text id="_3" data-name="3" transform="translate(245 3653)" fill="#12263f" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">3</tspan></text>
+      </g>
+      <g id="Grupo_1074906" data-name="Grupo 1074906" transform="translate(375 -1069)">
+        <circle id="Elipse_9894-4" data-name="Elipse 9894" cx="30" cy="30" r="30" transform="translate(225 3612)" fill="#fff"/>
+        <text id="_4" data-name="4" transform="translate(245 3653)" fill="#12263f" font-size="35" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">4</tspan></text>
+      </g>
+      <g id="g4140" transform="translate(773.667 2987.634)">
+        <g id="g4142" transform="translate(0 -682.665)">
+          <g id="g4144" transform="translate(0 0)" clip-path="url(#clip-path)">
+            <g id="g4150" transform="translate(1.029 15.977)">
+              <path id="path4152" d="M0,0H46.855" transform="translate(0 0)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4154" transform="translate(7.175 6.716)">
+              <path id="path4156" d="M-29.229-58.425a2.448,2.448,0,0,0,2.446-2.442,2.448,2.448,0,0,0-2.446-2.442,2.448,2.448,0,0,0-2.443,2.442A2.448,2.448,0,0,0-29.229-58.425Z" transform="translate(31.672 63.309)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4158" transform="translate(28.41 6.716)">
+              <path id="path4160" d="M-29.229,0h9.2a2.45,2.45,0,0,1,2.443,2.442,2.449,2.449,0,0,1-2.443,2.442h-9.2a2.449,2.449,0,0,1-2.443-2.442A2.45,2.45,0,0,1-29.229,0Z" transform="translate(31.672)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4162" transform="translate(16.196 6.716)">
+              <path id="path4164" d="M-29.229-58.425a2.448,2.448,0,0,0,2.446-2.442,2.448,2.448,0,0,0-2.446-2.442,2.448,2.448,0,0,0-2.443,2.442A2.448,2.448,0,0,0-29.229-58.425Z" transform="translate(31.672 63.309)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4166" transform="translate(14.648 23.889)">
+              <path id="path4168" d="M-24.625,0l-2.059,8.614" transform="translate(26.684)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4170" transform="translate(21.447 24.667)">
+              <path id="path4172" d="M0-84.432,2.913-87.7a.4.4,0,0,0,0-.519L0-91.49" transform="translate(0 91.49)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4174" transform="translate(6.898 24.667)">
+              <path id="path4176" d="M-35.995-84.432l-2.913-3.27a.4.4,0,0,1,0-.519l2.913-3.27" transform="translate(39.004 91.49)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4178" transform="translate(27.203 25.978)">
+              <path id="path4180" d="M-172.337-29.387a9.952,9.952,0,0,1,3.126,1.288l.843-.839a1.289,1.289,0,0,1,1.819,0l1.327,1.326a1.287,1.287,0,0,1,0,1.818l-.84.842a9.933,9.933,0,0,1,1.283,3.095h1.181a1.292,1.292,0,0,1,1.289,1.285v1.88a1.292,1.292,0,0,1-1.289,1.285h-1.187a9.964,9.964,0,0,1-1.277,3.077l.84.839a1.287,1.287,0,0,1,0,1.818l-1.327,1.329a1.289,1.289,0,0,1-1.819,0l-.843-.839A9.946,9.946,0,0,1-172.3-9.9v1.195a1.292,1.292,0,0,1-1.286,1.288h-1.881a1.292,1.292,0,0,1-1.286-1.288v-1.2a9.967,9.967,0,0,1-3.085-1.277l-.84.839a1.289,1.289,0,0,1-1.819,0l-1.329-1.329a1.292,1.292,0,0,1,0-1.818l.843-.839a9.9,9.9,0,0,1-1.28-3.077h-1.193a1.29,1.29,0,0,1-1.286-1.285v-1.88a1.29,1.29,0,0,1,1.286-1.285h1.19a9.953,9.953,0,0,1,1.262-3.063l-.846-.848a1.287,1.287,0,0,1,0-1.818l1.327-1.326a1.289,1.289,0,0,1,1.819,0l.837.833a10,10,0,0,1,3.079-1.291v-1.186a1.29,1.29,0,0,1,1.286-1.288h1.878a1.293,1.293,0,0,1,1.289,1.288Z" transform="translate(186.744 31.844)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4182" transform="translate(34.116 32.891)">
+              <path id="path4184" d="M-63.445,0a5.3,5.3,0,0,1,5.3,5.3,5.3,5.3,0,0,1-5.3,5.3,5.3,5.3,0,0,1-5.3-5.3A5.3,5.3,0,0,1-63.445,0Z" transform="translate(68.749)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4186" transform="translate(1.029 2.263)">
+              <path id="path4188" d="M-118.658-456.392h-6.088c-2.1,0-3.831-2.06-3.831-4.575v-29c0-2.518,1.723-4.575,3.831-4.575h39.193c2.108,0,3.831,2.06,3.831,4.575v22.532m-19.4,11.045h-8.348" transform="translate(128.577 494.544)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+            <g id="g4190" transform="translate(15.555 40.415)">
+              <path id="path4192" d="M0,0H.02" transform="translate(0 0)" fill="none" stroke="#1682fb" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_1074908" data-name="Grupo 1074908" transform="translate(-735 -587)">
+      <rect id="Rectángulo_382745-2" data-name="Rectángulo 382745" width="264" height="72" rx="10" transform="translate(966 2460)" fill="#e1f6ef"/>
+      <text id="_1._Escribir_las_pruebas_primero._2._Refactorización_de_código." data-name="1. Escribir las pruebas primero.
+2. Refactorización de código." transform="translate(983 2473)" fill="#12263f" font-size="16" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="17">1. Escribir las pruebas primero.</tspan><tspan x="0" y="43">2. Refactorización de código.</tspan></text>
+    </g>
+  </g>
+</svg>

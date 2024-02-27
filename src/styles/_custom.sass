@@ -124,6 +124,24 @@
   .slyder-a
     .slyder-a__btn--sigt,.slyder-a__btn--atrs
       background-color: #FFCE00
+
+.cont_4_1
+  position: relative
+  background-color: #13215C
+  padding-top: 2.5rem !important
+  overflow: hidden
+  h4
+    color: $color-acento-botones
+  ul
+    color: white
+  .fig-flotante
+    position: absolute
+  .slyder-a
+    p
+      color: white
+    .slyder-a__btn--sigt,.slyder-a__btn--atrs
+      background-color: #FFCE00
+
     
 
 .color-thead-tabla-1
@@ -147,6 +165,9 @@
 .color-fondo-6
   background-color: $color-sistema-h !important
 
+.color-fondo-7
+  background-color: #FFEEA6 !important
+
 .fondo-gradiente-1
   position: relative
   *
@@ -164,6 +185,10 @@
   &.posicion-1
     &:before
       top: 30px
+      bottom: 70px
+  &.posicion-2
+    &:before
+      top: 80px
       bottom: 70px
 
 .fondo-gradiente-2
@@ -251,5 +276,29 @@
     i
       font-size: 1rem
       color: #707BA3
+
+.cont_3_1
+  border-top-right-radius: 12px
+  border-bottom-right-radius: 12px
+  border-bottom-left-radius: 12px
+  &.color-1
+    background-color: #ADD3FD
+  &.color-2
+    background-color: #BAE9D9
+  h4
+    background-color: #273A89
+    color: white
+    display: inline-block
+    padding: 0.2rem 0.6rem
+  @media screen and (max-width: 576px)
+    .fig-dec
+        max-width: 50px !important
+
       
 
+.triangulo
+  width: 100px
+  height: 100px
+  position: relative
+  background-color: red
+  clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%)
