@@ -25,7 +25,7 @@
             h3.mt-3.mb-0.me-2 Cypress
 
       .row.mb-4
-        .col-lg-2
+        .col-lg-2.order-first.order-lg-last
           figure
             img.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/4.png",style="max-width: 190px;")
         .col-lg-10
@@ -92,7 +92,7 @@
             h3.mt-3.mb-0.me-2 Serenity BDD
 
       .row.mb-5
-        .col-lg-2
+        .col-lg-2.order-first.order-lg-last
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/7.png",style="max-width: 190px;")
         .col-lg-10
@@ -164,13 +164,15 @@
           .col.align-self-end
             h3.mt-3.mb-0.me-2 Robot Framework
 
-      .row.mb-5
-        .col-lg-2
+      .row.mb-3
+        .col-lg-2.order-first.order-lg-last
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/10.png",style="max-width: 190px;")
         .col-lg-10
-          p.mb-4 Este #[em framework] se basa en Python y también podría utilizar #[em IronPython] (.NET) y #[em Jython] (Java). Además, emplea un enfoque basado en palabras clave para facilitar la creación de pruebas que sean fáciles de entender y legibles. Contiene diversas bibliotecas de pruebas y otras herramientas que se utilizan para agregar nuevas funcionalidades y desarrollar un conjunto de pruebas personalizado para la aplicación. Por otro lado, la biblioteca de prueba externa más utilizada podría ser #[em Selenium WebDriver]. No obstante, Robot Framework puede probar FTP, MongoDB, Android y Appium, además de sitios web.
+          p Este #[em framework] se basa en Python y también podría utilizar #[em IronPython] (.NET) y #[em Jython] (Java). Además, emplea un enfoque basado en palabras clave para facilitar la creación de pruebas que sean fáciles de entender y legibles. Contiene diversas bibliotecas de pruebas y otras herramientas que se utilizan para agregar nuevas funcionalidades y desarrollar un conjunto de pruebas personalizado para la aplicación. Por otro lado, la biblioteca de prueba externa más utilizada podría ser #[em Selenium WebDriver]. No obstante, Robot Framework puede probar FTP, MongoDB, Android y Appium, además de sitios web.
 
+      .row.justify-content-end.mb-5
+        .col-lg-10
           .color-fondo-4.p-4.mb-4.figura-decorativa
             figure.fig-dec
               img.mx-auto(src="@/assets/curso/temas/12.svg")
@@ -241,7 +243,7 @@
             h3.mt-3.mb-0.me-2 #[em TestProject.io]
       
       .row.mb-4
-        .col-lg-2
+        .col-lg-2.order-first.order-lg-last
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/13.png",style="max-width: 190px;")
         .col-lg-10
@@ -293,7 +295,7 @@
             h3.mt-3.mb-0.me-2 #[em WebDriverIO]
     
       .row.mb-5
-        .col-lg-2
+        .col-lg-2.order-first.order-lg-last
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/14.png",style="max-width: 190px;")
         .col-lg-10

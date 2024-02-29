@@ -120,12 +120,124 @@
       h2 4.2 Caso de prueba herramienta SonarQube
     
     .row 
-      .col-md-3.col-lg-2
+      .col-md-3.col-lg-2.order-first.order-lg-last
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/54.svg",style="max-width: 190px;")
       .col-md-9.col-lg-10
         p.mb-4 SonarQube es una plataforma de código abierto destinada a la gestión de calidad de código, que utiliza herramientas de análisis estático de código fuente, como #[em Checkstyle, PMD o FindBugs], para generar métricas que contribuyen a mejorar la calidad del código de una aplicación.
         p.mb-0 El objetivo de presentar esta herramienta de revisión automática de código es identificar #[em bugs], vulnerabilidades y #[em "code smells"] en el código. Además, es compatible con varios lenguajes de programación. A continuación, se enumeran algunas de las herramientas empleadas en la gestión del código:
+
+    p.mb-4 #[b SonarQube] ofrece una vista instantánea de la calidad del código en un momento específico, así como un historial de la evolución de esta calidad a lo largo del tiempo. Proporciona indicadores cuantitativos tales como la cantidad de código cubierto por las pruebas unitarias, la complejidad ciclomática del código y la duplicación. Esto permite medir la excelencia del proyecto y la calidad de los desarrolladores que lo mantienen.
+
+    p.mb-4 Es importante destacar que, desde las perspectivas de:
+
+    .cont_4_2.borde-10.mb-5
+      .row.align-items-center
+        .col-12.col-lg-2.pe-lg-0
+          .d-flex.justify-content-center.flex-lg-wrap
+            .figura-ilustrativa
+              figure
+                img.mx-auto(src="@/assets/curso/temas/56.svg")
+            .figura-ilustrativa
+              figure
+                img.mx-auto(src="@/assets/curso/temas/57.svg")
+            .figura-ilustrativa
+              figure
+                img.mx-auto(src="@/assets/curso/temas/58.svg")
+        .col-12.col-lg-10.ps-lg-0
+          .p-4.ps-lg-0
+            .p-3.cont-textos-1.borde-10
+              h3.mb-2.p-1 Ingeniero de pruebas
+              p.mb-4 &#8226; SonarQube facilita la identificación de áreas donde faltan pruebas unitarias, permitiendo su inclusión.
+              h3.mb-2.p-1 Arquitecto de software
+              p.mb-4 &#8226; SonarQube asiste en mantener el diseño original del sistema, asegurando que las reglas de codificación se cumplan durante el desarrollo del proyecto. 
+              p.mb-4 &#8226; Ayuda a detectar código excesivamente complejo para su posterior refactorización y a identificar dependencias incorrectamente asignadas. 
+              p.mb-4 &#8226; Puede asegurar atributos de calidad como la mantenibilidad, la extensibilidad y el bajo acoplamiento.
+              h3.mb-2.p-1 Desarrolladores
+              p.mb-4 &#8226; Les permite escribir código más legible y fácil de mantener, lo cual se traduce en una curva de aprendizaje mucho más baja para los nuevos desarrolladores que llegan a incluirse en el proyecto.
+
+    p.mb-4 Por lo tanto, es posible mencionar algunas de las características a tener en cuenta de SonarQube:
+    p.mb-4 Para analizar un proyecto de software utilizando SonarQube, se debe contar con tres componentes:
+
+    .row.justify-content-center
+      .col-lg-4.col-md-6.mb-4
+        .p-4.borde-10.h-100(style="background-color: #BAE9D9;")
+          .d-flex.justify-content-between.mb-3
+            div
+              figure
+                img.mx-auto(src="@/assets/curso/temas/59.svg")
+            div(style="margin-right: -1.5rem")
+              figure
+                img.mx-auto(src="@/assets/curso/temas/41.svg")
+          h3.mb-4.p-1.d-inline-block(style="background-color: #3EE2A8") Servidor web de SonarQube
+          p.mb-0 Es un servidor web que tarda un par de minutos al instalarse por primera vez, ya que debe crear las tablas en la base de datos para ser ejecutado.
+      .col-lg-4.col-md-6.mb-4
+        .p-4.borde-10.h-100(style="background-color: #BAE9D9;")
+          .d-flex.justify-content-between.mb-3
+            div
+              figure
+                img.mx-auto(src="@/assets/curso/temas/60.svg")
+            div(style="margin-right: -1.5rem")
+              figure
+                img.mx-auto(src="@/assets/curso/temas/41.svg")
+          h3.mb-4.p-1.d-inline-block(style="background-color: #3EE2A8") Base de datos
+          p.mb-0 Es un conjunto de  datos que  permite almacenar el resultado de todos los análisis que se van a ejecutar.
+      .col-lg-4.col-md-6.mb-4
+        .p-4.borde-10.h-100(style="background-color: #BAE9D9;")
+          .d-flex.justify-content-between.mb-3
+            div
+              figure
+                img.mx-auto(src="@/assets/curso/temas/61.svg")
+            div(style="margin-right: -1.5rem")
+              figure
+                img.mx-auto(src="@/assets/curso/temas/41.svg")
+          h3.mb-4.p-1.d-inline-block(style="background-color: #3EE2A8") #[em Scanner]
+          p.mb-0 Existen diferentes tipos de scanner, dependiendo del lenguaje, y es quien realizará el análisis y subirá los reportes al servidor web de #[b SonarQube.]
+
+    p.mt-1 Una vez el reporte de #[em #[b SonarQube]] se ha generado, el equipo de desarrollo de #[em software] podrá entrar y analizar el reporte para saber cómo mejorar la calidad a medida que va evolucionando el proyecto.
+
+    .cont-titulo-decorativo.p-2.mt-5.mb-4
+      .row
+        .col-auto.pe-0
+          figure
+            img(src="@/assets/curso/temas/3.svg")
+        .col.align-self-end
+          h3.mt-3.mb-0.me-2 Inspección continúa
+
+    .row.mb-5
+      .col-lg-8
+        p.mb-4 En la construcción de un #[em software], hay muchos desarrolladores involucrados, cada uno de ellos con una comprensión diferente de lo que es la calidad y los estándares del desarrollo de #[em software]. Adicionalmente, pueden utilizar editores de código diferentes, como visual Studio Code o IntelliJ. Posteriormente, suben el código a algún repositorio, como uno basado en Git. Después de que esto ocurre, se lanza un proceso de integración continua, puede ser en Jenkins, donde se ejecutan las pruebas del proyecto y este se puede desplegar en un ambiente de producción. Es en este punto donde se puede incluir SonarQube para mejorar la calidad del proyecto, puesto que se puede hacer que SonarQube haga parte del proceso de integración continua y, con esto, se estaría creando el proceso de inspección continua.
+
+        .p-4.borde-10(style="background-color: #F3F9FF;border:1px solid #273A89;")
+          p.mb-0 Una vez que el análisis del código está listo, los desarrolladores podrán entrar y ver el resultado del reporte para seguir trabajando en el mejoramiento continuo de la calidad del proyecto. Finalmente, es posible instalar SonarLint, que es un plugin para los editores de código, que permite realizar un análisis antes de subir el código al servidor de SonarQube para ser analizado, de tal forma que los desarrolladores mejoren la calidad con mucho tiempo de antelación.
+
+      .col-lg-4.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/62.png",style="max-width: 400px;")
+
+    .tarjeta.color-secundario.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-auto
+          img(src="@/assets/curso/temas/9.svg").img65
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h4.mb-1 Probando SonarQube
+              p.mb-0.text-small Para obtener una mejor comprensión de SonarQube, se recomienda acceder al siguiente video tutorial, el cual ofrece una guía detallada sobre cómo instalar la herramienta SonarQube.
+            .col-sm-auto
+              a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=5UoygWLrBqo" target="_blank")
+                span(style="color: #12263F") Ver video
+                i.fas.fa-video(style="color: #12263F")
+
+    .cont_4_3
+      .figura-triangulo
+        h4 titulo
+      div
+        p Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, molestiae nihil praesentium ipsum aliquam illum nisi.
+
+          
+    
+
 </template>
 
 <script>

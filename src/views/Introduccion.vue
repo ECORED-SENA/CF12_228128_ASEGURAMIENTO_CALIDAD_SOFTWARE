@@ -11,21 +11,21 @@
     
     p.mb-4 En este componente formativo, se estudiarán las diferentes herramientas para la automatización de pruebas de #[em software], por lo cual, en esta sección, se abordarán las siguientes áreas de aprendizaje: descripción de las herramientas de pruebas de software por código y de GUI, TDD y calidad del código fuente.
 
-    .color-fondo-1.borde-10.p-4.mb-5
+    .color-fondo-1.borde-10.p-4.mb-4
       .row.align-items-center
         .col-lg-2
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/1.png",style="max-width: 168px;")
         .col-lg-10
-          p.mb-0 Cabe resaltar que, cuando se desarrollan aplicaciones web, uno de los desafíos es verificar que la calidad del producto sea óptima y sin errores, y una actividad que permite lo anterior es automatizar los test, que empiezan con una primera etapa de pruebas manuales, para posteriormente ser automatizadas. Conocer las diversas herramientas de pruebas de #[em software] permite probar las funcionalidades definidas en el plan de pruebas, verificando por ejemplo que  un método de una clase específica funcione correctamente, así como asegurar que una serie de acciones en una interfaz de usuario se efectúen de forma correcta y que, además, retornen los resultados esperados. Lo invitamos a explorar el siguiente video y conocer más:
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Automatización de pruebas de #[em software]
-
+          p.mb-0 En este componente aprenderán sobre la importancia de las pruebas automatizadas, las cuales tienen como objetivo principal detectar fallas en el #[em software] sin la necesidad de intervención manual en cada prueba.  A través de este curso, se explicará se elaboran casos de prueba utilizando herramientas de automatización, lo que permite su ejecución automática y simula la interacción humana con el #[em software], destacando la automatización como una estrategia clave para reducir el esfuerzo humano en tareas repetitivas o complejas y hacer el proceso más efectivo y productivo.
     
-    p Para la elaboración de este componente, se abordaron varios autores conocidos en #[b automatización de pruebas de #[em software]], de quienes se han citado y referenciado conceptos y ejemplos para los fines educativos de esta materia, en el entendido de que el conocimiento es social y, por lo tanto, es para ser usado por quienes necesitan adquirirlo. Se espera que este documento sea útil para todos aquellos, aprendices y lectores en general, que estén interesados en acercarse a asuntos básicos del #[b aseguramiento de la calidad de #[em software]].
+    .row
+      .col-lg-9
+        p.mb-4 Además, se abordará la selección de herramientas para pruebas en proyectos de software según el contexto de uso, incluyendo desde opciones multifuncionales hasta herramientas de código abierto o de alto costo.
+        p.mb-0 El componente se centra en el análisis de herramientas de automatización de pruebas, tanto para código como para interfaces gráficas, proporcionando una descripción detallada de su desarrollo, conceptos y características, complementado con ejemplos prácticos usando herramientas como Cypress.
+      .col-lg-3.order-first.order-lg-last
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/55.svg",style="max-width: 295px;")
 
 </template>
 
