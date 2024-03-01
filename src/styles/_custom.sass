@@ -191,6 +191,29 @@
       top: 80px
       bottom: 70px
 
+.fondo-gradiente-3
+  position: relative
+  *
+    position: relative
+  &:before
+    content: ""
+    opacity: 0.49
+    background: linear-gradient(0deg, rgba(222,225,237,0.37) 0%, rgba(175,199,233,0.64) 40%, rgba(173,211,253,1) 100%)
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+  &.posicion-1
+    &:before
+      top: 30px
+      bottom: 70px
+  &.posicion-2
+    &:before
+      top: 80px
+      bottom: 70px
+
 .fondo-gradiente-2
   position: relative
   z-index: 1
@@ -311,9 +334,53 @@
 
 
 .cont_4_3
-  .figura-triangulo
-    width: 190px
-    height: 300px
-    background-image: url(../assets/curso/temas/63.png)
-    background-repeat: no-repeat
-    background-size: 100% 100%
+  position: relative
+  display: flex
+  flex-direction: row
+  *
+    position: relative
+  &:before
+    content: ""
+    background-color: #BAE9D9
+    position: absolute
+    top: 0
+    left: 95px
+    @media screen and (max-width: 768px)
+      left: 65px
+    right: 0
+    bottom: 0
+    z-index: 0
+    border-top-right-radius: 12px
+    border-end-end-radius: 12px
+  .fig-content
+    display: flex
+    flex-direction: column
+    max-width: 190px
+    min-width: 190px
+    width: 100%
+    align-items: center
+    justify-content: center
+    @media screen and (max-width: 768px)
+      max-width: 130px
+      min-width: 130px
+
+    img
+      width: 100%
+    .fig-block
+      border-top-left-radius: 10px
+      border-top-right-radius: 10px
+      height: 100%
+      min-height: 14px
+      background-color: #FFCE00
+      width: 100%
+    .cont-titulo-figura
+      position: absolute
+
+.color-fondo-7.fondec-2
+  .fig-dec.f1
+    @media screen and (max-width: 768px)
+      top: 100px !important
+
+.link-defecto
+  cursor: pointer !important
+  color: #2196F3 !important

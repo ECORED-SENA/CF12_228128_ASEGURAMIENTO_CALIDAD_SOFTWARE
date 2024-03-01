@@ -18,7 +18,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/hIuEqUdAVJo?si=TD3_Gk_0T7qKjPmR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     .cont-titulo-decorativo.p-2.mt-5.mb-4
       .row
@@ -36,9 +36,9 @@
       figure.fig-dec(style="max-width: 264px;bottom: 0;top: auto;right: auto;left: 10%;")
         img.mx-auto(src="@/assets/curso/temas/38.svg",style="max-width: 264px;")
       figure.d-none.d-lg-block
-        img.mx-auto(src="@/assets/curso/temas/36.svg",style="max-width: 1019px;")
+        img.mx-auto(src="@/assets/curso/temas/36.svg",style="max-width: 1019px;",alt="El diagrama ilustra el ciclo de Desarrollo Guiado por Pruebas (TDD), una metodología en la que se escribe primero una prueba, luego se desarrolla el código mínimo necesario para pasar la prueba y finalmente se refina el código mediante refactorización para optimizar su estructura y eficiencia. Este proceso se repite de forma iterativa para mejorar continuamente el software.")
       figure.d-lg-none
-        img.mx-auto(src="@/assets/curso/temas/39.svg",style="max-width: 295px;")
+        img.mx-auto(src="@/assets/curso/temas/39.svg",style="max-width: 295px;",alt="El diagrama ilustra el ciclo de Desarrollo Guiado por Pruebas (TDD), una metodología en la que se escribe primero una prueba, luego se desarrolla el código mínimo necesario para pasar la prueba y finalmente se refina el código mediante refactorización para optimizar su estructura y eficiencia. Este proceso se repite de forma iterativa para mejorar continuamente el software.")
 
     p.mb-4 A continuación, se describirán los pasos involucrados en realizar el proceso de TDD.
     .fondo-gradiente-1.posicion-2

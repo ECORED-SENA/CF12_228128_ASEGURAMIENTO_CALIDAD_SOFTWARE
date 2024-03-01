@@ -41,7 +41,7 @@
 
       figure.mb-5
         .video
-          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/hIuEqUdAVJo?si=TD3_Gk_0T7qKjPmR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
       p.mb-5 Para afianzar sus conocimientos y realizar los pasos de instalación de la herramienta Cypress, se le invita a descargar el siguiente archivo PDF:
 
@@ -55,7 +55,7 @@
                 h4.mb-1 Guía para instalar Cypress
                 p.mb-0.text-small Para una instalación exitosa de Cypress, le invitamos a revisar detenidamente la guía que se encuentra en el documento anexo.
               .col-sm-auto
-                a.boton.color-acento-botones(href="https://docs.google.com/document/d/1wD3oByzOhsH4c0oWnUb4DWNBc0hmCOhrMDWG0-nCtyo/edit?usp=sharing" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_Guia_para_instalar_Cypress.pdf')" target="_blank")
                   span(style="color: #12263F") Descargar
                   i.fas.fa-file-download(style="color: #12263F")
       
@@ -104,7 +104,7 @@
             p.mb-0 #[b Figura 1.] #[em Framework Serenity BDD]
           .cont_1_2.px-lg-5.px-md-4.px-2
             figure.mb-4.mb-lg-0
-              img.mx-auto(src="@/assets/curso/temas/8.png")
+              img.mx-auto(src="@/assets/curso/temas/8.png",alt="Figura de la página de resultados de Serenity BDD mostrando cuatro escenarios de prueba. Hay un gráfico circular que indica 75% de pruebas pasaron y 25% fallaron.")
       
       p.mb-4 Para utilizar #[b #[em Serenity BDD]], se deben tener en cuenta las características del entorno donde será instalado y ejecutado, por lo tanto, a continuación, se mencionan los elementos requeridos:
 
@@ -210,13 +210,13 @@
                   td Python 2.7.9 o superior.
                 tr
                   td.text-center #[b Editor de código]
-                  td SublimeText. Página para instalar https://www.sublimetext.com/3
+                  td SublimeText. Página para instalar #[a.link-defecto(href="https://www.sublimetext.com/3" target="_blank") https://www.sublimetext.com/3 #[i.ms-1.fas.fa-external-link-alt]]
                 tr
                   td.text-center #[b Página para descargar]
                   td
-                    | Python https://www.python.org/downloads/windows/
+                    | Python #[a.link-defecto(href="https://www.python.org/downloads/windows/" target="_blank") https://www.python.org/downloads/windows/ #[i.ms-1.fas.fa-external-link-alt]]
                     br
-                    | wxPython. https://wxpython.org/pages/downloads/index.html
+                    | wxPython. #[a.link-defecto(href="https://wxpython.org/pages/downloads/index.html" target="_blank") https://wxpython.org/pages/downloads/index.html #[i.ms-1.fas.fa-external-link-alt]]
 
 
       .tarjeta.color-secundario.p-3.mb-5
@@ -325,13 +325,13 @@
                   td Internet Explorer 7.0.6001.1800, Mozilla Firefox 3.0.6, Opera 9.63, Safari 3.2.1, Google Chrome.
                 tr
                   td.text-center #[b Editor de código]
-                  td Visual Studio Code. Página para descargar Visual Studio Code https://code.visualstudio.com/download
+                  td Visual Studio Code. Página para descargar Visual Studio Code #[a.link-defecto(href="https://code.visualstudio.com/download" target="_blank") https://code.visualstudio.com/download #[i.ms-1.fas.fa-external-link-alt]]
                 tr
                   td.text-center #[b Entorno en tiempo de ejecución multiplataforma]
                   td Node.js
                 tr
                   td.text-center #[b Página para descargar]
-                  td node.js https://nodejs.org/en/
+                  td node.js #[a.link-defecto(href="https://nodejs.org/en/" target="_blank") https://nodejs.org/en/ #[i.ms-1.fas.fa-external-link-alt]]
 
       .tarjeta.color-secundario.p-3
         .row.justify-content-around.align-items-center
