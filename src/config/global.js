@@ -305,11 +305,11 @@ export default {
     {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
-        /* {
-          nombre: 'Nombre responsable',
+        {
+          nombre: 'Juan Daniel Polanco Muñoz',
           cargo: 'Diseñador de Contenidos Digitales',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        }, */
+        },
         {
           nombre: 'Edwin Sneider Velandia Suarez',
           cargo: 'Desarrollador Fullstack',
