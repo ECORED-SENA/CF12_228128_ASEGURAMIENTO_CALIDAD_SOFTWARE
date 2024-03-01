@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Automatización de pruebas de software**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/CF12_228128_ASEGURAMIENTO_CALIDAD_SOFTWARE/#/](https://ecored-sena.github.io/CF12_228128_ASEGURAMIENTO_CALIDAD_SOFTWARE/#/)
 
 #
 
