@@ -16,9 +16,78 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/35.png",style="max-width: 400px;")
 
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/hIuEqUdAVJo?si=TD3_Gk_0T7qKjPmR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .fondo-gradiente-2.py-5.slider-tema-3
+      .cont_2_3.p-3
+        figure.fig-flotante(style="left: 0;top: -140px;max-width:118px;")
+          img(src="@/assets/curso/temas/31.svg",style="max-width:118px;")
+        figure.fig-flotante(style="z-index: 1;right: 10px;top: 10px;max-width:88px;")
+          img(src="@/assets/curso/temas/30.svg",style="max-width:88px;")
+        figure.fig-flotante(style="right: -70px;top: -115px;max-width:173px;")
+          img(src="@/assets/curso/temas/29.svg",style="max-width:173px;")
+        figure.fig-flotante(style="left: 35%;bottom: -160px;max-width:227px;")
+          img(src="@/assets/curso/temas/28.svg",style="max-width:227px;")
+
+        SlyderA(tipo="b")
+          .row.justify-content-center
+            .col-lg-10
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  h4.mb-4 Beneficios clave de adoptar esta metodología
+
+                  p.mb-0 En el dinámico mundo del desarrollo de #[em software], el Desarrollo Dirigido por Pruebas (TDD) destaca por su enfoque práctico y eficaz. A continuación, desglosamos los beneficios clave de adoptar esta metodología, que van desde la mejora de la calidad del producto hasta la optimización del rendimiento del código.
+
+
+                .col-md-6.order-first.order-lg-last
+                  figure.mb-4.mb-lg-0
+                    img.mx-auto(src='@/assets/curso/temas/67.svg',style="max-width: 570px;")
+          .row.justify-content-center
+            .col-lg-10
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  h4.mb-4 Verificación de funcionalidades desarrolladas
+
+                  p.mb-0 Facilita la verificación de funcionalidades desarrolladas en ciclos más cortos, lo que promueve la detección temprana de errores y su correspondiente solución.
+
+
+                .col-md-6.order-first.order-lg-last
+                  figure.mb-4.mb-lg-0
+                    img.mx-auto(src='@/assets/curso/temas/68.svg',style="max-width: 570px;")
+          .row.justify-content-center
+            .col-lg-10
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  h4.mb-4 Adoptar esta metodología mejora la fiabilidad del producto de #[em software]
+
+                  p.mb-0 Adoptar esta metodología mejora la fiabilidad del producto de #[em software], no solo en términos de corrección de errores funcionales, sino también en cumplir con las necesidades especificadas por el cliente.
+
+
+                .col-md-6.order-first.order-lg-last
+                  figure.mb-4.mb-lg-0
+                    img.mx-auto(src='@/assets/curso/temas/69.svg',style="max-width: 570px;")
+          .row.justify-content-center
+            .col-lg-10
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  h4.mb-4 Optimización y mejora del rendimiento del código
+
+                  p.mb-0 Optimización y mejora del rendimiento del código, ya que se enfatiza en escribir únicamente el código necesario para satisfacer las necesidades identificadas.
+
+
+                .col-md-6.order-first.order-lg-last
+                  figure.mb-4.mb-lg-0
+                    img.mx-auto(src='@/assets/curso/temas/70.svg',style="max-width: 570px;")
+          .row.justify-content-center
+            .col-lg-10
+              .row.align-items-center
+                .col-md-6.mb-4.mb-md-0
+                  h4.mb-4 Simplifica el desarrollo de manera modular
+
+                  p.mb-0 El proceso de ejecutar pruebas para cada nueva funcionalidad o requisito simplifica el desarrollo de manera modular, facilitando la escalabilidad y el mantenimiento futuro del producto de #[em software].
+
+
+                .col-md-6.order-first.order-lg-last
+                  figure.mb-4.mb-lg-0
+                    img.mx-auto(src='@/assets/curso/temas/71.svg',style="max-width: 570px;")
 
     .cont-titulo-decorativo.p-2.mt-5.mb-4
       .row
