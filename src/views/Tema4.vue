@@ -2,38 +2,38 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Calidad del código fuente
     
     .row
-      .col-lg-4
+      .col-lg-4(data-aos="fade-right")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/47.png",style="max-width: 400px;")
       .col-lg-8
-        p.mb-5 Este aspecto es crucial para analizar, dado que la calidad del código fuente y las métricas relevantes facilitan la identificación de errores y su posterior refactorización. Por lo tanto, el análisis de código constituye una etapa esencial del ciclo de desarrollo de #[em software], que implica la revisión del código fuente para detectar errores en una etapa temprana (Dapozo et al., s.f.).
+        p.mb-5(data-aos="fade-up") Este aspecto es crucial para analizar, dado que la calidad del código fuente y las métricas relevantes facilitan la identificación de errores y su posterior refactorización. Por lo tanto, el análisis de código constituye una etapa esencial del ciclo de desarrollo de #[em software], que implica la revisión del código fuente para detectar errores en una etapa temprana (Dapozo et al., s.f.).
 
-        .color-fondo-3.p-4.figura-decorativa.borde-10
+        .color-fondo-3.p-4.figura-decorativa.borde-10(data-aos="fade-down")
           figure.fig-dec(style="top: 20px;")
             img.mx-auto(src="@/assets/curso/temas/12.svg")
           p.mb-0 Se suele establecer un proceso de verificación de código antes de integrarlo al código base. Por ello, el código fuente debe ser redactado de manera que cumpla con sus funciones de forma eficaz y que, adicionalmente, sea sencillo de entender y modificar por otros desarrolladores.
 
     Separador
 
-    #t_4_1.titulo-segundo.color-acento-contenido
+    #t_4_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.1 Métricas de indicadores
     
     .row.mb-4
-      .col-lg-9
+      .col-lg-9(data-aos="fade-right")
         p.mb-0 En el ciclo de vida del desarrollo de #[em software], la construcción del código fuente representa un proceso fundamental, basado en un diseño arquitectónico detallado que incorpora estilos arquitectónicos, patrones y estándares de codificación. Estos elementos garantizan la mantenibilidad del código, la capacidad para desarrollar nuevas funcionalidades y la facilidad para identificar y corregir errores. Este proceso se sustenta en la aplicación de diversas métricas, las cuales se detallarán a continuación:
       
-      .col-lg-3.order-first.order-lg-last
+      .col-lg-3.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/48.svg",style="max-width: 295px;")
 
     .fondo-gradiente-2.py-5
-      .cont_4_1.p-3
+      .cont_4_1.p-3(data-aos="zoom-in-up")
         figure.fig-flotante(style="left: 0;top: -140px;max-width:118px;")
           img(src="@/assets/curso/temas/31.svg",style="max-width:118px;")
         figure.d-none.d-lg-block.fig-flotante(style="z-index: 1;right: 10px;top: 10px;max-width:50px;")
@@ -116,21 +116,21 @@
 
     Separador 
 
-    #t_4_2.titulo-segundo.color-acento-contenido
+    #t_4_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 4.2 Caso de prueba herramienta SonarQube
     
     .row.mb-5
       .col-md-3.col-lg-2.order-first.order-md-last
-        figure.mb-4.mb-lg-0
+        figure.mb-4.mb-lg-0(data-aos="fade")
           img.mx-auto(src="@/assets/curso/temas/54.svg",style="max-width: 190px;")
       .col-md-9.col-lg-10
-        p.mb-4 SonarQube es una plataforma de código abierto destinada a la gestión de calidad de código, que utiliza herramientas de análisis estático de código fuente, como #[em Checkstyle, PMD o FindBugs], para generar métricas que contribuyen a mejorar la calidad del código de una aplicación.
-        p.mb-0 El objetivo de presentar esta herramienta de revisión automática de código es identificar #[em bugs], vulnerabilidades y #[em "code smells"] en el código. Además, es compatible con varios lenguajes de programación. A continuación, se enumeran algunas de las herramientas empleadas en la gestión del código:
+        p.mb-4(data-aos="fade-up") SonarQube es una plataforma de código abierto destinada a la gestión de calidad de código, que utiliza herramientas de análisis estático de código fuente, como #[em Checkstyle, PMD o FindBugs], para generar métricas que contribuyen a mejorar la calidad del código de una aplicación.
+        p.mb-0(data-aos="fade-down") El objetivo de presentar esta herramienta de revisión automática de código es identificar #[em bugs], vulnerabilidades y #[em "code smells"] en el código. Además, es compatible con varios lenguajes de programación. A continuación, se enumeran algunas de las herramientas empleadas en la gestión del código:
 
     .fondo-gradiente-3.pt-4
       .row.align-items-center.mb-5
         .col-lg-9
-          .cont_4_3.figura-decorativa.mb-4
+          .cont_4_3.figura-decorativa.mb-4(data-aos="fade-up")
             figure.fig-dec(style="top: 20px;")
               img(src="@/assets/curso/temas/41.svg").mx-auto
             .fig-content
@@ -139,7 +139,7 @@
               h4.mb-0.px-1.text-center.cont-titulo-figura Checkstyle:
             .p-3.py-lg-4.pe-lg-5.ps-lg-4.cont_contenido_texto
               p.mb-0 Analiza un código fuente y busca mejorar el estándar de codificación, también verifica el código fuente para las convenciones de codificación, como encabezados, importaciones, espacios en blanco.
-          .cont_4_3.figura-decorativa.mb-4
+          .cont_4_3.figura-decorativa.mb-4(data-aos="fade-left")
             figure.fig-dec(style="top: 20px;")
               img(src="@/assets/curso/temas/41.svg").mx-auto
             .fig-content
@@ -148,7 +148,7 @@
               h4.mb-0.px-1.text-center.cont-titulo-figura PMD:
             .p-3.py-lg-4.pe-lg-5.ps-lg-4.cont_contenido_texto
               p.mb-0 Identifica problemas potenciales, principalmente, códigos muertos, duplicados, complejidad ciclomática y expresiones excesivamente complejas. (De la Roca et al., 2014).
-          .cont_4_3.figura-decorativa
+          .cont_4_3.figura-decorativa(data-aos="fade-down")
             figure.fig-dec(style="top: 20px;")
               img(src="@/assets/curso/temas/41.svg").mx-auto
             .fig-content
@@ -158,32 +158,32 @@
             .p-3.py-lg-4.pe-lg-5.ps-lg-4.cont_contenido_texto
               p.mb-0 Analiza el código para encontrar cualquier falla de diseño y posibles errores, identifica mala práctica, código dudoso, corrección multiproceso, rendimiento malicioso, vulnerabilidad de código, seguridad experimental e internacionalización (De la Roca et al., 2014).
 
-        .col-lg-3.order-first.order-lg-last
+        .col-lg-3.order-first.order-lg-last(data-aos="zoom-in-up")
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/64.png",style="max-width: 295px;")
 
 
 
-      p.mb-4 #[b SonarQube] ofrece una vista instantánea de la calidad del código en un momento específico, así como un historial de la evolución de esta calidad a lo largo del tiempo. Proporciona indicadores cuantitativos tales como la cantidad de código cubierto por las pruebas unitarias, la complejidad ciclomática del código y la duplicación. Esto permite medir la excelencia del proyecto y la calidad de los desarrolladores que lo mantienen.
+      p.mb-4(data-aos="fade") #[b SonarQube] ofrece una vista instantánea de la calidad del código en un momento específico, así como un historial de la evolución de esta calidad a lo largo del tiempo. Proporciona indicadores cuantitativos tales como la cantidad de código cubierto por las pruebas unitarias, la complejidad ciclomática del código y la duplicación. Esto permite medir la excelencia del proyecto y la calidad de los desarrolladores que lo mantienen.
 
-      p.mb-4 Es importante destacar que, desde las perspectivas de:
+      p.mb-4(data-aos="fade") Es importante destacar que, desde las perspectivas de:
 
       .cont_4_2.borde-10.mb-5
         .row.align-items-center
           .col-12.col-lg-2.pe-lg-0
             .d-flex.justify-content-center.flex-lg-wrap
-              .figura-ilustrativa
+              .figura-ilustrativa(data-aos="flip-up")
                 figure
                   img.mx-auto(src="@/assets/curso/temas/56.svg")
-              .figura-ilustrativa
+              .figura-ilustrativa(data-aos="flip-up")
                 figure
                   img.mx-auto(src="@/assets/curso/temas/57.svg")
-              .figura-ilustrativa
+              .figura-ilustrativa(data-aos="flip-up")
                 figure
                   img.mx-auto(src="@/assets/curso/temas/58.svg")
           .col-12.col-lg-10.ps-lg-0
             .p-4.ps-lg-0
-              .p-3.cont-textos-1.borde-10
+              .p-3.cont-textos-1.borde-10(data-aos="flip-up")
                 h3.mb-2.p-1 Ingeniero de pruebas
                 p.mb-4 &#8226; SonarQube facilita la identificación de áreas donde faltan pruebas unitarias, permitiendo su inclusión.
                 h3.mb-2.p-1 Arquitecto de software
@@ -193,7 +193,7 @@
                 h3.mb-2.p-1 Desarrolladores
                 p.mb-4 &#8226; Les permite escribir código más legible y fácil de mantener, lo cual se traduce en una curva de aprendizaje mucho más baja para los nuevos desarrolladores que llegan a incluirse en el proyecto.
 
-    p.mb-4 Por lo tanto, es posible mencionar algunas de las características a tener en cuenta de SonarQube:
+    p.mb-4(data-aos="fade") Por lo tanto, es posible mencionar algunas de las características a tener en cuenta de SonarQube:
 
     .color-fondo-7.fondec-2.borde-10.p-2.p-md-4.px-lg-5.figura-decorativa.mb-5
       figure.fig-dec.f1(style="max-width: 97px;top: 35px;")
@@ -201,15 +201,15 @@
       figure.fig-dec(style="max-width: 264px;bottom: 0;top: auto;right: auto;left: 10%;")
         img.mx-auto(src="@/assets/curso/temas/38.svg",style="max-width: 264px;")
       h4.pt-4.pt-lg-0.mb-4.text-center Características de SonarQube
-      figure.d-none.d-lg-block
+      figure.d-none.d-lg-block(data-aos="fade")
         img.mx-auto(src="@/assets/curso/temas/65.svg",style="max-width: 1030px;")
-      figure.d-lg-none
+      figure.d-lg-none(data-aos="fade")
         img.mx-auto(src="@/assets/curso/temas/66.svg",style="max-width: 295px;")
 
-    p.mb-4 Para analizar un proyecto de software utilizando SonarQube, se debe contar con tres componentes:
+    p.mb-4(data-aos="fade") Para analizar un proyecto de software utilizando SonarQube, se debe contar con tres componentes:
 
     .row.justify-content-center
-      .col-lg-4.col-md-6.mb-4
+      .col-lg-4.col-md-6.mb-4(data-aos="fade-right")
         .p-4.borde-10.h-100(style="background-color: #BAE9D9;")
           .d-flex.justify-content-between.mb-3
             div
@@ -220,7 +220,7 @@
                 img.mx-auto(src="@/assets/curso/temas/41.svg")
           h3.mb-4.p-1.d-inline-block(style="background-color: #3EE2A8") Servidor web de SonarQube
           p.mb-0 Es un servidor web que tarda un par de minutos al instalarse por primera vez, ya que debe crear las tablas en la base de datos para ser ejecutado.
-      .col-lg-4.col-md-6.mb-4
+      .col-lg-4.col-md-6.mb-4(data-aos="fade-down")
         .p-4.borde-10.h-100(style="background-color: #BAE9D9;")
           .d-flex.justify-content-between.mb-3
             div
@@ -231,7 +231,7 @@
                 img.mx-auto(src="@/assets/curso/temas/41.svg")
           h3.mb-4.p-1.d-inline-block(style="background-color: #3EE2A8") Base de datos
           p.mb-0 Es un conjunto de  datos que  permite almacenar el resultado de todos los análisis que se van a ejecutar.
-      .col-lg-4.col-md-6.mb-4
+      .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
         .p-4.borde-10.h-100(style="background-color: #BAE9D9;")
           .d-flex.justify-content-between.mb-3
             div
@@ -243,9 +243,9 @@
           h3.mb-4.p-1.d-inline-block(style="background-color: #3EE2A8") #[em Scanner]
           p.mb-0 Existen diferentes tipos de scanner, dependiendo del lenguaje, y es quien realizará el análisis y subirá los reportes al servidor web de #[b SonarQube.]
 
-    p.mt-1 Una vez el reporte de #[em #[b SonarQube]] se ha generado, el equipo de desarrollo de #[em software] podrá entrar y analizar el reporte para saber cómo mejorar la calidad a medida que va evolucionando el proyecto.
+    p.mt-1(data-aos="fade") Una vez el reporte de #[em #[b SonarQube]] se ha generado, el equipo de desarrollo de #[em software] podrá entrar y analizar el reporte para saber cómo mejorar la calidad a medida que va evolucionando el proyecto.
 
-    .cont-titulo-decorativo.p-2.mt-5.mb-4
+    .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="flip-up")
       .row
         .col-auto.pe-0
           figure
@@ -255,16 +255,16 @@
 
     .row.mb-5
       .col-lg-8
-        p.mb-4 En la construcción de un #[em software], hay muchos desarrolladores involucrados, cada uno de ellos con una comprensión diferente de lo que es la calidad y los estándares del desarrollo de #[em software]. Adicionalmente, pueden utilizar editores de código diferentes, como visual Studio Code o IntelliJ. Posteriormente, suben el código a algún repositorio, como uno basado en Git. Después de que esto ocurre, se lanza un proceso de integración continua, puede ser en Jenkins, donde se ejecutan las pruebas del proyecto y este se puede desplegar en un ambiente de producción. Es en este punto donde se puede incluir SonarQube para mejorar la calidad del proyecto, puesto que se puede hacer que SonarQube haga parte del proceso de integración continua y, con esto, se estaría creando el proceso de inspección continua.
+        p.mb-4(data-aos="fade-left") En la construcción de un #[em software], hay muchos desarrolladores involucrados, cada uno de ellos con una comprensión diferente de lo que es la calidad y los estándares del desarrollo de #[em software]. Adicionalmente, pueden utilizar editores de código diferentes, como visual Studio Code o IntelliJ. Posteriormente, suben el código a algún repositorio, como uno basado en Git. Después de que esto ocurre, se lanza un proceso de integración continua, puede ser en Jenkins, donde se ejecutan las pruebas del proyecto y este se puede desplegar en un ambiente de producción. Es en este punto donde se puede incluir SonarQube para mejorar la calidad del proyecto, puesto que se puede hacer que SonarQube haga parte del proceso de integración continua y, con esto, se estaría creando el proceso de inspección continua.
 
         .p-4.borde-10(style="background-color: #F3F9FF;border:1px solid #273A89;")
-          p.mb-0 Una vez que el análisis del código está listo, los desarrolladores podrán entrar y ver el resultado del reporte para seguir trabajando en el mejoramiento continuo de la calidad del proyecto. Finalmente, es posible instalar SonarLint, que es un plugin para los editores de código, que permite realizar un análisis antes de subir el código al servidor de SonarQube para ser analizado, de tal forma que los desarrolladores mejoren la calidad con mucho tiempo de antelación.
+          p.mb-0(data-aos="fade") Una vez que el análisis del código está listo, los desarrolladores podrán entrar y ver el resultado del reporte para seguir trabajando en el mejoramiento continuo de la calidad del proyecto. Finalmente, es posible instalar SonarLint, que es un plugin para los editores de código, que permite realizar un análisis antes de subir el código al servidor de SonarQube para ser analizado, de tal forma que los desarrolladores mejoren la calidad con mucho tiempo de antelación.
 
-      .col-lg-4.order-first.order-lg-last
+      .col-lg-4.order-first.order-lg-last(data-aos="zoom-in-up")
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/62.png",style="max-width: 400px;")
 
-    .tarjeta.color-secundario.p-3.mb-5
+    .tarjeta.color-secundario.p-3.mb-5(data-aos="fade")
       .row.justify-content-around.align-items-center
         .col-auto
           img(src="@/assets/curso/temas/9.svg").img65

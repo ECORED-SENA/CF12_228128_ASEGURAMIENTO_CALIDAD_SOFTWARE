@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Herramientas de pruebas de #[em software] de GUI
     
-    p.mb-5 En este apartado, se identifican las herramientas de prueba de GUI (#[em Graphical User Interface]), que en español se traduce como interfaz gráfica de usuario, las cuales ayudan en las pruebas automatizadas de #[em software] y aplicaciones que contienen interfaces gráficas de usuario. Estas herramientas de #[em software] emplean casos de prueba incluidos en el plan de pruebas para garantizar que la aplicación cumpla con sus especificaciones y ejecute las funciones previstas.
+    p.mb-5(data-aos="fade") En este apartado, se identifican las herramientas de prueba de GUI (#[em Graphical User Interface]), que en español se traduce como interfaz gráfica de usuario, las cuales ayudan en las pruebas automatizadas de #[em software] y aplicaciones que contienen interfaces gráficas de usuario. Estas herramientas de #[em software] emplean casos de prueba incluidos en el plan de pruebas para garantizar que la aplicación cumpla con sus especificaciones y ejecute las funciones previstas.
 
-    .d-flex.flex-wrap.flex-lg-nowrap.align-items-center.color-fondo-2.p-4.mb-4
+    .d-flex.flex-wrap.flex-lg-nowrap.align-items-center.color-fondo-2.p-4.mb-4(data-aos="flip-up")
       figure.mb-4.mb-lg-0.position-relative(style="z-index: 1;")
         img.mx-auto(src="@/assets/curso/temas/15.png",style="max-width: 295px;")
       .p-4.cont_1_1
@@ -22,12 +22,12 @@
           figure.fig-dec(style="bottom: 1.5rem;top: unset;")
             img.mx-auto(src="@/assets/curso/temas/12.svg")
 
-          p.mb-0 Por otro lado, cuando se incluyen pruebas de GUI al comienzo del proceso de desarrollo del #[em software], mejora la calidad, se agiliza el desarrollo y se reducen los riesgos al finalizar el proceso de desarrollo; además, las pruebas de GUI automatizadas proveen una solución para los problemas relacionados con las pruebas manuales de GUI (Fernández, 2018).
-      .col-lg-4
+          p.mb-0(data-aos="fade-right") Por otro lado, cuando se incluyen pruebas de GUI al comienzo del proceso de desarrollo del #[em software], mejora la calidad, se agiliza el desarrollo y se reducen los riesgos al finalizar el proceso de desarrollo; además, las pruebas de GUI automatizadas proveen una solución para los problemas relacionados con las pruebas manuales de GUI (Fernández, 2018).
+      .col-lg-4(data-aos="fade-left")
         figure
           img.mx-auto(src="@/assets/curso/temas/16.png",style="max-width: 400px;")
     
-    .tarjeta.color-secundario.p-3.mb-5
+    .tarjeta.color-secundario.p-3.mb-5(data-aos="fade")
       .row.justify-content-around.align-items-center
         .col-auto
           img(src="@/assets/curso/temas/9.svg").img65
@@ -40,7 +40,7 @@
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=xgJcWRQhDmY" target="_blank")
                 span(style="color: #12263F") Ver video
                 i.fas.fa-video(style="color: #12263F")
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10
         .borde-10.color-fondo-5.p-4
           .row.align-items-center
@@ -50,7 +50,7 @@
             .col-lg-11.col-md-10
               p.mb-0 ¿#[b Sabías que ...] las pruebas de GUI, una vez creadas, pueden repetirse tantas veces como sea necesario?
 
-    .cont-titulo-decorativo.p-2.mt-5.mb-4
+    .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="flip-up")
       .row
         .col-auto.pe-0
           figure
@@ -61,16 +61,16 @@
     .cont_2_1.mb-4
       .py-5
         .row.mb-4
-          .col-md-2.text-center
+          .col-md-2.text-center(data-aos="fade-right")
             .color-fondo-6.p-2.borde-10.mb-4.mb-lg-0.d-inline-block.d-md-block.px-5.px-md-2
               figure
                 img.mx-auto(src="@/assets/curso/temas/24.svg",style="max-width: 49px;")
-          .col-md-10
+          .col-md-10(data-aos="fade-left")
             p.mb-0 Las pruebas de #[em software] de GUI constituyen un proceso funcional que puede volverse crítico. Por lo tanto, hay muchos factores a considerar al seleccionar una herramienta de pruebas de GUI automatizada. A continuación, se mencionan algunos de los factores importantes a tener en cuenta durante el proceso de selección:
           
         
 
-        SlyderF.estilo-slyder(columnas="col-lg-6 col-xl-4")
+        SlyderF.estilo-slyder(columnas="col-lg-6 col-xl-4",data-aos="zoom-in-up")
           .tarjeta.color-secundario.p-4.tarjeta-carrousel-1
             figure.mb-2
               img.me-auto(src="@/assets/curso/temas/18.png",style="max-width: 90px;")
@@ -107,24 +107,24 @@
             h3.mb-3 #[span.numero.p-1 6.] #[span.titulo.p-1 Correcciones regulares/ lanzamientos]
             p.mb-0 Observar si la herramienta se mantiene, las actualizaciones periódicas se lanzan y se verifica  la madurez de la herramienta.
 
-    p.mb-4 Con base en lo anterior, a continuación, se describen las herramientas para crear y ejecutar pruebas de GUI automatizadas de forma efectiva:
+    p.mb-4(data-aos="fade") Con base en lo anterior, a continuación, se describen las herramientas para crear y ejecutar pruebas de GUI automatizadas de forma efectiva:
 
     .row.justify-content-center.mb-5
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
+      .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         .cont_2_2.p-4.figura-decorativa
           figure.fig-dec(style="bottom: 0;top: unset;max-width: 79px;")
             img.mx-auto(src="@/assets/curso/temas/25.svg",style="max-width: 79px;")
 
           h3.mb-3 #[em Test Complete]
           p.mb-4 Es una herramienta que contiene tres módulos para aplicaciones de escritorio, web y móviles, una opción de grabación manual, reproducción y modificación automatizada de prueba grabada.
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
+      .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
         .cont_2_2.p-4.figura-decorativa
           figure.fig-dec(style="bottom: 0;top: unset;max-width: 79px;")
             img.mx-auto(src="@/assets/curso/temas/25.svg",style="max-width: 79px;")
 
           h3.mb-3 #[em Selenium]
           p.mb-4 Es una  herramienta que es utilizada para la automatización de pruebas,  las efectúa mediante reproducción y grabación de una aplicación web de código abierto, permite grabar acciones visuales.
-      .col-md-6.col-lg-4.mb-4.mb-lg-0
+      .col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos="fade-up")
         .cont_2_2.p-4.figura-decorativa
           figure.fig-dec(style="bottom: 0;top: unset;max-width: 79px;")
             img.mx-auto(src="@/assets/curso/temas/25.svg",style="max-width: 79px;")
@@ -132,9 +132,9 @@
           h3.mb-3 #[em Squish]
           p.mb-4 Es una herramienta de uso comercial, multiplataforma y funcional, utilizada para pruebas de regresión y de GUI, con la capacidad de probar aplicaciones basadas en diversas tecnologías, incluyendo Windows, Java, Mac, iOS, Android, etc.
 
-    p Según las herramientas utilizadas para ejecutar las pruebas de GUI, se destaca el uso de #[em frameworks]. Es crucial considerar las características del entorno donde serán instalados y ejecutados:
+    p(data-aos="fade-left") Según las herramientas utilizadas para ejecutar las pruebas de GUI, se destaca el uso de #[em frameworks]. Es crucial considerar las características del entorno donde serán instalados y ejecutados:
 
-    .fondo-gradiente-2.py-5
+    .fondo-gradiente-2.py-5(data-aos="flip-up")
       .cont_2_3.p-3
         figure.fig-flotante(style="left: 0;top: -140px;max-width:118px;")
           img(src="@/assets/curso/temas/31.svg",style="max-width:118px;")
