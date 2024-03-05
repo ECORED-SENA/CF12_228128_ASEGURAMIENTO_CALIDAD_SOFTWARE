@@ -57,7 +57,7 @@
 
                 .col-lg-7.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
-                    img.mx-auto(src='@/assets/curso/temas/49.png',style="max-width: 570px;")
+                    img.mx-auto.maximo-ancho(src='@/assets/curso/temas/49.png',style="max-width: 570px;")
           .row.justify-content-center
             .col-lg-11
               .row.align-items-center
@@ -71,7 +71,7 @@
 
                 .col-lg-7.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
-                    img.mx-auto(src='@/assets/curso/temas/50.png',style="max-width: 570px;")
+                    img.mx-auto.maximo-ancho(src='@/assets/curso/temas/50.png',style="max-width: 570px;")
           .row.justify-content-center
             .col-lg-11
               .row.align-items-center
@@ -86,7 +86,7 @@
 
                 .col-lg-7.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
-                    img.mx-auto(src='@/assets/curso/temas/51.png',style="max-width: 570px;")
+                    img.mx-auto.maximo-ancho(src='@/assets/curso/temas/51.png',style="max-width: 570px;")
           .row.justify-content-center
             .col-lg-11
               .row.align-items-center
@@ -99,7 +99,7 @@
 
                 .col-lg-7.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
-                    img.mx-auto(src='@/assets/curso/temas/52.png',style="max-width: 570px;")
+                    img.mx-auto.maximo-ancho(src='@/assets/curso/temas/52.png',style="max-width: 570px;")
           .row.justify-content-center
             .col-lg-11
               .row.align-items-center
@@ -112,7 +112,7 @@
 
                 .col-lg-7.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
-                    img.mx-auto(src='@/assets/curso/temas/53.png',style="max-width: 570px;")
+                    img.mx-auto.maximo-ancho(src='@/assets/curso/temas/53.png',style="max-width: 570px;")
 
     Separador 
 

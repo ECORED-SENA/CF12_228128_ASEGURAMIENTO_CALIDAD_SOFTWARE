@@ -56,7 +56,7 @@
                 h4.mb-1 Guía para instalar Cypress
                 p.mb-0.text-small Para una instalación exitosa de Cypress, le invitamos a revisar detenidamente la guía que se encuentra en el documento anexo.
               .col-sm-auto
-                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_Guia_para_instalar_Cypress.pdf')" target="_blank")
+                a.boton.color-acento-botones(:href="obtenerLink('downloads/Anexo_1_guia_para_instalar_cypress.pdf')" target="_blank")
                   span(style="color: #12263F") Descargar
                   i.fas.fa-file-download(style="color: #12263F")
       
