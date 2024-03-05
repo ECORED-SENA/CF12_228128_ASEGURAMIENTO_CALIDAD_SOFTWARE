@@ -158,7 +158,7 @@
             .p-3.py-lg-4.pe-lg-5.ps-lg-4.cont_contenido_texto
               p.mb-0 Analiza el código para encontrar cualquier falla de diseño y posibles errores, identifica mala práctica, código dudoso, corrección multiproceso, rendimiento malicioso, vulnerabilidad de código, seguridad experimental e internacionalización (De la Roca et al., 2014).
 
-        .col-lg-3.order-first.order-lg-last(data-aos="zoom-in-up")
+        .col-lg-3.d-none.d-lg-block(data-aos="zoom-in-up")
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/64.png",style="max-width: 295px;")
 
@@ -186,7 +186,7 @@
               .p-3.cont-textos-1.borde-10(data-aos="flip-up")
                 h3.mb-2.p-1 Ingeniero de pruebas
                 p.mb-4 &#8226; SonarQube facilita la identificación de áreas donde faltan pruebas unitarias, permitiendo su inclusión.
-                h3.mb-2.p-1 Arquitecto de software
+                h3.mb-2.p-1 Arquitecto de #[em software]
                 p.mb-4 &#8226; SonarQube asiste en mantener el diseño original del sistema, asegurando que las reglas de codificación se cumplan durante el desarrollo del proyecto. 
                 p.mb-4 &#8226; Ayuda a detectar código excesivamente complejo para su posterior refactorización y a identificar dependencias incorrectamente asignadas. 
                 p.mb-4 &#8226; Puede asegurar atributos de calidad como la mantenibilidad, la extensibilidad y el bajo acoplamiento.

@@ -10,8 +10,8 @@
             img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Cuestionario acerca de automatización de pruebas de software
-        p.mb-4 Afianzar los conceptos más importantes asociados a la automatización de pruebas de software.
+          h2 Cuestionario acerca de automatización de pruebas de #[em software]
+        p.mb-4 Afianzar los conceptos más importantes asociados a la automatización de pruebas de #[em software].
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

@@ -42,6 +42,7 @@
       figure.mb-5(data-aos="zoom-in-up")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/hIuEqUdAVJo?si=TD3_Gk_0T7qKjPmR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Instalación de la herramienta Cypress
 
       p.mb-5(data-aos="fade") Para afianzar sus conocimientos y realizar los pasos de instalación de la herramienta Cypress, se le invita a descargar el siguiente archivo PDF:
 
