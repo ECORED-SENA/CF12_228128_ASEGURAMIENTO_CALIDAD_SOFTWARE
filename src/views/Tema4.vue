@@ -195,16 +195,37 @@
 
     p.mb-4(data-aos="fade") Por lo tanto, es posible mencionar algunas de las características a tener en cuenta de SonarQube:
 
-    .color-fondo-7.fondec-2.borde-10.p-2.p-md-4.px-lg-5.figura-decorativa.mb-5
+    .color-fondo-7.fondec-2.borde-10.p-3.p-md-4.px-lg-5.figura-decorativa.mb-5.pb-4
       figure.fig-dec.f1(style="max-width: 97px;top: 35px;")
         img.mx-auto(src="@/assets/curso/temas/37.svg")
       figure.fig-dec(style="max-width: 264px;bottom: 0;top: auto;right: auto;left: 10%;")
         img.mx-auto(src="@/assets/curso/temas/38.svg",style="max-width: 264px;")
       h4.pt-4.pt-lg-0.mb-4.text-center Características de SonarQube
-      figure.d-none.d-lg-block(data-aos="fade")
-        img.mx-auto(src="@/assets/curso/temas/65.svg",style="max-width: 1030px;")
-      figure.d-lg-none(data-aos="fade")
-        img.mx-auto(src="@/assets/curso/temas/66.svg",style="max-width: 295px;")
+
+      .row.justify-content-center
+        .col-lg-2.col-md-3
+          figure.mb-4.mb-lg-0
+            img.mx-auto(src="@/assets/curso/temas/54.svg",style="max-width: 190px;")
+        
+        .col-lg-3.col-md-4
+          .color-fondo-3.p-3.borde-10.mb-2
+            p.mb-0 &#8226; Integración DevOps (Jenkins & Azure DevOps).
+          .color-fondo-3.p-3.borde-10.mb-2
+            p.mb-0 &#8226; Detecta problemas complicados.
+          .color-fondo-3.p-3.borde-10.mb-2
+            p.mb-0 &#8226; Se integra con IDEs de desarrollo con herramientas de integración continua.
+          .color-fondo-3.p-3.borde-10.mb-2.mb-lg-0
+            p.mb-0 &#8226; Analiza el código fuente de más de 20 lenguajes de programación.
+        .col-lg-3.col-md-4
+          .color-fondo-3.p-3.borde-10.mb-2
+            p.mb-0 &#8226; Instala un servidor local que se puede configurar con diferentes BD para analizar grandes cantidades de código o también trae su BD embebida.
+          .color-fondo-3.p-3.borde-10.mb-2
+            p.mb-0 &#8226; Curva de aprendizaje rápida.
+          .color-fondo-3.p-3.borde-10.mb-2
+            p.mb-0 &#8226; Escalable a las necesidades de una empresa.
+          .color-fondo-3.p-3.borde-10
+            p.mb-0 &#8226; Inspección continúa.
+      
 
     p.mb-4(data-aos="fade") Para analizar un proyecto de software utilizando SonarQube, se debe contar con tres componentes:
 
