@@ -7,13 +7,13 @@
         span 1
       h1 Herramientas de pruebas de #[em software] por código
 
-    p.mb-4(data-aos="fade") Una vez estudiados y comprendidos los fundamentos de la calidad del software como elementos clave para elaborar un plan de pruebas, es posible seleccionar las herramientas de pruebas de software necesarias para realizar una prueba de automatización, las cuales se describirán en este apartado.
+    p.mb-4(data-aos="fade") Una vez estudiados y comprendidos los fundamentos de la calidad del #[em software] como elementos clave para elaborar un plan de pruebas, es posible seleccionar las herramientas de pruebas de software necesarias para realizar una prueba de automatización, las cuales se describirán en este apartado.
 
     .d-flex.flex-wrap.flex-lg-nowrap.align-items-center.color-fondo-2.p-4
       figure.mb-4.mb-lg-0.position-relative(style="z-index: 1;",data-aos="fade-right")
         img.mx-auto(src="@/assets/curso/temas/2.png",style="max-width: 295px;")
       .p-4.cont_1_1(data-aos="fade-left")
-        p.mb-0 Existen varios #[b #[em frameworks]] que tienen integradas herramientas para la realización de pruebas unitarias, las cuales probarán las funciones de las clases y componentes que son utlizados por el producto software. Estos #[em frameworks] proporcionan ayudas para que el código de automatización de prueba sea estable, reutilizable y mantenible (Serna, M. y Serna, A., 2012).
+        p.mb-0 Existen varios #[b #[em frameworks]] que tienen integradas herramientas para la realización de pruebas unitarias, las cuales probarán las funciones de las clases y componentes que son utlizados por el producto #[em software]. Estos #[em frameworks] proporcionan ayudas para que el código de automatización de prueba sea estable, reutilizable y mantenible (Serna, M. y Serna, A., 2012).
 
     .fondo-gradiente-1.posicion-1(data-aos="fade-right")
       .cont-titulo-decorativo.p-2.mt-5.mb-4
@@ -29,7 +29,7 @@
           figure
             img.mx-auto.mb-4.mb-lg-0(src="@/assets/curso/temas/4.png",style="max-width: 190px;")
         .col-lg-10(data-aos="fade")
-          p.mb-0 Es un #[em framework] de automatización de pruebas para JavaScript que facilita el testeo de aplicaciones web. Destaca por la sencillez de su configuración, la velocidad en la ejecución de pruebas y su interfaz gráfica interactiva, que muestra con claridad lo que está sucediendo y lo que se está probando. Esto permite detectar rápidamente cualquier error que surja durante el proceso. Además, es importante mencionar que con Cypress se pueden escribir pruebas de todo tipo, incluyendo unitarias, de integración y #[em end-to-end], sin necesidad de combinar distintos #[em frameworks] de prueba. Esto se debe a que Cypress es compatible con cualquier tipo de #[em framework], lo que facilita enormemente el proceso de prueba.
+          p.mb-0 Es un #[em framework] de automatización de pruebas para JavaScript que facilita el testeo de aplicaciones #[em web]. Destaca por la sencillez de su configuración, la velocidad en la ejecución de pruebas y su interfaz gráfica interactiva, que muestra con claridad lo que está sucediendo y lo que se está probando. Esto permite detectar rápidamente cualquier error que surja durante el proceso. Además, es importante mencionar que con Cypress se pueden escribir pruebas de todo tipo, incluyendo unitarias, de integración y #[em end-to-end], sin necesidad de combinar distintos #[em frameworks] de prueba. Esto se debe a que Cypress es compatible con cualquier tipo de #[em framework], lo que facilita enormemente el proceso de prueba.
 
       .row.align-items-center.mb-5
         .col-lg-4(data-aos="zoom-in-up")
@@ -37,7 +37,7 @@
             img.mx-auto(src="@/assets/curso/temas/5.png",style="max-width: 400px;")
         .col-lg-8(data-aos="fade")
           .color-fondo-3.borde-10.p-4
-            p.mb-0 Este #[em framework] de automatización de pruebas se enfoca en el desarrollador y se centra en permitir que el desarrollo basado en pruebas (TDD) sea una práctica simple y agradable. Cypress se ejecuta dentro del navegador de forma remota, a diferencia de otros #[em framework] de pruebas que se ejecutan fuera de él, considerando que tiene una arquitectura diferente y brindando resultados más consistentes.  Por lo tanto, se hace una invitación a conocer el videotutorial de la instalación de la herramienta Cypress en el sistema operativo Windows 10 a 64 bits
+            p.mb-0 Este #[em framework] de automatización de pruebas se enfoca en el desarrollador y se centra en permitir que el desarrollo basado en pruebas (TDD) sea una práctica simple y agradable. Cypress se ejecuta dentro del navegador de forma remota, a diferencia de otros #[em framework] de pruebas que se ejecutan fuera de él, considerando que tiene una arquitectura diferente y brindando resultados más consistentes.  Por lo tanto, se hace una invitación a conocer el videotutorial de la instalación de la herramienta Cypress en el sistema operativo Windows 10 a 64 bits.
 
       figure.mb-5(data-aos="zoom-in-up")
         .video

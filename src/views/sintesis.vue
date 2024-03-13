@@ -7,7 +7,7 @@
     .row.justify-content-center(style="background-color: #F6F6F6;border-radius: 15px;")
       .col-lg-10.mb-5.pt-4
         figure(data-aos="flip-up")
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La figura explica cómo las herramientas de automatización detectan y resuelven problemas en el código, contribuyen a la calidad del producto y facilitan el desarrollo de software a través de pruebas y ciclos de desarrollo más eficientes.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

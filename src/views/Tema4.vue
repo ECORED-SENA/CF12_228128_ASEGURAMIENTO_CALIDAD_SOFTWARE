@@ -52,7 +52,7 @@
 
                   p.mb-4 Está relacionado con la utilización excesiva de comentarios de código. Antiguamente, se generaban gran cantidad de comentarios, pero ahora se considera realizar buenas prácticas de nomenclatura para explicar secciones lógicas complicadas.
 
-                  p.mb-0 #[b Cómo usarlo:] los comentarios deben ser claros y concisos
+                  p.mb-0 #[b Cómo usarlo:] los comentarios deben ser claros y concisos.
 
 
                 .col-lg-7.order-first.order-lg-last
@@ -262,7 +262,7 @@
               figure
                 img.mx-auto(src="@/assets/curso/temas/41.svg")
           h3.mb-4.p-1.d-inline-block(style="background-color: #3EE2A8") #[em Scanner]
-          p.mb-0 Existen diferentes tipos de scanner, dependiendo del lenguaje, y es quien realizará el análisis y subirá los reportes al servidor web de #[b SonarQube.]
+          p.mb-0 Existen diferentes tipos de #[em scanner], dependiendo del lenguaje, y es quien realizará el análisis y subirá los reportes al servidor web de #[b SonarQube.]
 
     p.mt-1(data-aos="fade") Una vez el reporte de #[em #[b SonarQube]] se ha generado, el equipo de desarrollo de #[em software] podrá entrar y analizar el reporte para saber cómo mejorar la calidad a medida que va evolucionando el proyecto.
 
