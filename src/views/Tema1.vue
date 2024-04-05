@@ -13,7 +13,7 @@
       figure.mb-4.mb-lg-0.position-relative(style="z-index: 1;",data-aos="fade-right")
         img.mx-auto(src="@/assets/curso/temas/2.png",style="max-width: 295px;")
       .p-4.cont_1_1(data-aos="fade-left")
-        p.mb-0 Existen varios #[b #[em frameworks]] que tienen integradas herramientas para la realización de pruebas unitarias, las cuales probarán las funciones de las clases y componentes que son utlizados por el producto #[em software]. Estos #[em frameworks] proporcionan ayudas para que el código de automatización de prueba sea estable, reutilizable y mantenible (Serna, M. y Serna, A., 2012).
+        p.mb-0 Existen varios #[b #[em frameworks]] que tienen integradas herramientas para la realización de pruebas unitarias, las cuales probarán las funciones de las clases y componentes que son utilizados por el producto #[em software]. Estos #[em frameworks] proporcionan ayudas para que el código de automatización de prueba sea estable, reutilizable y mantenible (Serna, M. y Serna, A., 2012).
 
     .fondo-gradiente-1.posicion-1(data-aos="fade-right")
       .cont-titulo-decorativo.p-2.mt-5.mb-4

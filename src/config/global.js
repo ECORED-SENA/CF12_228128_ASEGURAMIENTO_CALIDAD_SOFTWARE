@@ -102,7 +102,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download: 'downloads/228128_CF12_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -228,11 +228,6 @@ export default {
     },
     {
       referencia:
-        'JoanMedia. (2020). Cómo INSTALAR CYPRESS | Cómo USAR Cypress | TUTORIAL de Cypress | Cypress.io  [Archivo de video] Youtube.',
-      link: 'https://www.youtube.com/watch?v=VimuR2V5Gf0',
-    },
-    {
-      referencia:
         'Manuel Zapata. (2020). Pruebas unitarias y Test-Driven Development | Ejemplo desde cero. [Archivo de video] Youtube.',
       link: 'https://www.youtube.com/watch?v=YuRdaR6wwWU',
     },
@@ -318,6 +313,16 @@ export default {
         {
           nombre: 'Edgar Mauricio Cortes Garcia',
           cargo: 'Actividad Didáctica',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Daniela Muñoz Bedoya',
+          cargo: 'Animador y Productor Multimedia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
+        {
+          nombre: 'Andrés Felipe Guevara Ariza',
+          cargo: 'Locución',
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
