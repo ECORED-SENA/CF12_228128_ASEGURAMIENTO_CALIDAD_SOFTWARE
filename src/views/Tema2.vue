@@ -34,7 +34,7 @@
         .col
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
-              h4.mb-1 #[em Automatización de pruebas de software]
+              h4.mb-1 Automatización de pruebas de #[em software]
               p.mb-0.text-small Los invitamos a ingresar  al #[em webinar] "Automatización de Pruebas de #[em Software]" donde exploraran las últimas tendencias y herramientas.
             .col-sm-auto
               a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=xgJcWRQhDmY" target="_blank")
@@ -150,7 +150,7 @@
             .col-lg-10
               .row.align-items-center
                 .col-md-6.mb-4.mb-md-0
-                  h4.mb-4 Test complete
+                  h4.mb-4 #[em Test complete]
 
                   ul.lista-ul--color.fa-ul.mb-0.ms-0(data-aos="fade")
                     li 

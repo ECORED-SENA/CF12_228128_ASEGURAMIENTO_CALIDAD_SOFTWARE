@@ -280,13 +280,13 @@ export default {
       autores: [
         {
           nombre: 'Ervin Andrade',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Peter Pinchao',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },

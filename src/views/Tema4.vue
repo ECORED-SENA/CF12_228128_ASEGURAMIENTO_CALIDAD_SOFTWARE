@@ -227,7 +227,7 @@
             p.mb-0 &#8226; Inspección continúa.
       
 
-    p.mb-4(data-aos="fade") Para analizar un proyecto de software utilizando SonarQube, se debe contar con tres componentes:
+    p.mb-4(data-aos="fade") Para analizar un proyecto de #[em software] utilizando SonarQube, se debe contar con tres componentes:
 
     .row.justify-content-center
       .col-lg-4.col-md-6.mb-4(data-aos="fade-right")

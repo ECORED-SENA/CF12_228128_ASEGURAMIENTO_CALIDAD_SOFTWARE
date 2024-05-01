@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    p.mb-4(data-aos="fade") En este componente formativo, se estudiarán las diferentes herramientas para la automatización de pruebas de #[em software], por lo cual, en esta sección, se abordarán las siguientes áreas de aprendizaje: descripción de las herramientas de pruebas de software por código y de GUI, TDD y calidad del código fuente.
+    p.mb-4(data-aos="fade") En este componente formativo, se estudiarán las diferentes herramientas para la automatización de pruebas de #[em software], por lo cual, en esta sección, se abordarán las siguientes áreas de aprendizaje: descripción de las herramientas de pruebas de #[em software] por código y de GUI, TDD y calidad del código fuente.
 
     .color-fondo-1.borde-10.p-4.mb-4
       .row.align-items-center
@@ -21,7 +21,7 @@
     
     .row
       .col-lg-9(data-aos="fade-right")
-        p.mb-4 Además, se abordará la selección de herramientas para pruebas en proyectos de software según el contexto de uso, incluyendo desde opciones multifuncionales hasta herramientas de código abierto o de alto costo.
+        p.mb-4 Además, se abordará la selección de herramientas para pruebas en proyectos de #[em software] según el contexto de uso, incluyendo desde opciones multifuncionales hasta herramientas de código abierto o de alto costo.
         p.mb-0 El componente se centra en el análisis de herramientas de automatización de pruebas, tanto para código como para interfaces gráficas, proporcionando una descripción detallada de su desarrollo, conceptos y características, complementado con ejemplos prácticos usando herramientas como Cypress.
       .col-lg-3.order-first.order-lg-last(data-aos="fade-left")
         figure.mb-4.mb-lg-0

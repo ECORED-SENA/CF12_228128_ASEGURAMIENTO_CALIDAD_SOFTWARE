@@ -7,7 +7,7 @@
         span 1
       h1 Herramientas de pruebas de #[em software] por código
 
-    p.mb-4(data-aos="fade") Una vez estudiados y comprendidos los fundamentos de la calidad del #[em software] como elementos clave para elaborar un plan de pruebas, es posible seleccionar las herramientas de pruebas de software necesarias para realizar una prueba de automatización, las cuales se describirán en este apartado.
+    p.mb-4(data-aos="fade") Una vez estudiados y comprendidos los fundamentos de la calidad del #[em software] como elementos clave para elaborar un plan de pruebas, es posible seleccionar las herramientas de pruebas de #[em software] necesarias para realizar una prueba de automatización, las cuales se describirán en este apartado.
 
     .d-flex.flex-wrap.flex-lg-nowrap.align-items-center.color-fondo-2.p-4
       figure.mb-4.mb-lg-0.position-relative(style="z-index: 1;",data-aos="fade-right")
@@ -42,7 +42,7 @@
       figure.mb-5(data-aos="zoom-in-up")
         .video
           iframe(width="560" height="315" src="https://www.youtube.com/embed/jZNkSRk4jxM?si=HUTfWztCBQnct6vT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-        figcaption Video. Automatización de pruebas de software
+        figcaption Video. Automatización de pruebas de #[em software]
 
       p.mb-5(data-aos="fade") Para afianzar sus conocimientos y realizar los pasos de instalación de la herramienta Cypress, se le invita a descargar el siguiente archivo PDF:
 
@@ -150,7 +150,7 @@
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
                 h4.mb-1 Conociendo #[em Serenity BDD]
-                p.mb-0.text-small Para conocer algunas funcionalidades de este framework, se recomienda observar el siguiente webinar.
+                p.mb-0.text-small Para conocer algunas funcionalidades de este #[em framework], se recomienda observar el siguiente webinar.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=609y4K4ph6s" target="_blank")
                   span(style="color: #12263F") Ver video
@@ -163,14 +163,14 @@
             figure
               img(src="@/assets/curso/temas/3.svg")
           .col.align-self-end
-            h3.mt-3.mb-0.me-2 Robot Framework
+            h3.mt-3.mb-0.me-2 #[em Robot Framework]
 
       .row.mb-3
         .col-lg-2.order-first.order-lg-last(data-aos="fade-right")
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/10.png",style="max-width: 190px;")
         .col-lg-10(data-aos="fade-left")
-          p Este #[em framework] se basa en Python y también podría utilizar #[em IronPython] (.NET) y #[em Jython] (Java). Además, emplea un enfoque basado en palabras clave para facilitar la creación de pruebas que sean fáciles de entender y legibles. Contiene diversas bibliotecas de pruebas y otras herramientas que se utilizan para agregar nuevas funcionalidades y desarrollar un conjunto de pruebas personalizado para la aplicación. Por otro lado, la biblioteca de prueba externa más utilizada podría ser #[em Selenium WebDriver]. No obstante, Robot Framework puede probar FTP, MongoDB, Android y Appium, además de sitios web.
+          p Este #[em framework] se basa en Python y también podría utilizar #[em IronPython] (.NET) y #[em Jython] (Java). Además, emplea un enfoque basado en palabras clave para facilitar la creación de pruebas que sean fáciles de entender y legibles. Contiene diversas bibliotecas de pruebas y otras herramientas que se utilizan para agregar nuevas funcionalidades y desarrollar un conjunto de pruebas personalizado para la aplicación. Por otro lado, la biblioteca de prueba externa más utilizada podría ser #[em Selenium WebDriver]. No obstante, #[em Robot Framework] puede probar FTP, MongoDB, Android y Appium, además de sitios web.
 
       .row.justify-content-end.mb-5(data-aos="fade")
         .col-lg-10
@@ -182,14 +182,14 @@
                 figure.mb-4.mb-lg-0
                   img.mx-auto(src="@/assets/curso/temas/11.svg",style="max-width: 51px;")
               .col-md-11
-                p.mb-0 Este #[em framework] se utiliza para las pruebas de aceptación, se considera entre uno de los mejores #[em framework] de Python. #[b Robot Framework] se utiliza en Python, pero, también puede ejecutarse en #[em IronPython], basado en .net y en #[em Jython], donde este último está basado en el lenguaje de programación Java.
+                p.mb-0 Este #[em framework] se utiliza para las pruebas de aceptación, se considera entre uno de los mejores #[em framework] de Python. #[b #[em Robot Framework]] se utiliza en Python, pero, también puede ejecutarse en #[em IronPython], basado en .net y en #[em Jython], donde este último está basado en el lenguaje de programación Java.
 
-          p.mb-0 Para utilizar #[b Robot Framework], se deben tener en cuenta las características del entorno donde será instalado y ejecutado. A continuación, se mencionan los elementos requeridos:
+          p.mb-0 Para utilizar #[b #[em Robot Framework]], se deben tener en cuenta las características del entorno donde será instalado y ejecutado. A continuación, se mencionan los elementos requeridos:
 
       .row.justify-content-center.mb-5(data-aos="zoom-in-up")
         .col-lg-10
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 3.] Requerimientos Robot Framework
+            p.mb-0 #[b Tabla 3.] Requerimientos #[em Robot Framework]
           .tabla-a.color-thead-tabla-1(style="background-color: white;")
             table
               thead
@@ -227,8 +227,8 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-1 Robot Framework: preparando ambiente
-                p.mb-0.text-small Para familiarizarse con las funcionalidades de este framework, se sugiere seguir el siguiente tutorial en video.
+                h4.mb-1 #[em Robot Framework]: preparando ambiente
+                p.mb-0.text-small Para familiarizarse con las funcionalidades de este #[em framework], se sugiere seguir el siguiente tutorial en video.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?v=x1klhk_ovZo" target="_blank")
                   span(style="color: #12263F") Ver video
@@ -254,7 +254,7 @@
       .row.justify-content-center.mb-5(data-aos="zoom-in-up")
         .col-lg-10
           .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Tabla 4.] Requerimientos Test Project
+            p.mb-0 #[b Tabla 4.] Requerimientos #[em TestProject]
           .tabla-a.color-thead-tabla-1(style="background-color: white;")
             table
               thead
@@ -279,7 +279,7 @@
           .col
             .row.justify-content-between.align-items-center
               .col.mb-3.mb-sm-0
-                h4.mb-1 Tests con Test Project
+                h4.mb-1 #[em Tests] con #[em TestProject]
                 p.mb-0.text-small Para conocer algunas funcionalidades de la plataforma en automatización de pruebas, remítase al video tutorial.
               .col-sm-auto
                 a.boton.color-acento-botones(href="https://www.youtube.com/watch?app=desktop&v=hbMbcjm492c" target="_blank")
